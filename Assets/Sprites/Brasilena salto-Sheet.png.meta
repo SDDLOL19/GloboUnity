@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1cb0e0c0648241d46a3c551398b6e7e9
+guid: 0d7199cd29ffd034d809bcf032fc95e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -63,11 +63,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -103,10 +103,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,148 +117,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_0"
+      name: BS1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.60229075, y: 0.2797158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4977695631a469745977a9764e3b7d1e
-      internalID: 1467278914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_1"
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.60220873, y: 0.279068}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db2fa18eb4e6ad1499eb34e6998fea79
-      internalID: -1738742002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_2"
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 15
-        width: 20
-        height: 36
-      alignment: 9
-      pivot: {x: 0.6020996, y: 0.32101038}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea560ac4e6058744394dfa238740635c
-      internalID: -1104961097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_3"
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 16
-        width: 20
+        x: 0
+        y: 0
+        width: 22
         height: 35
-      alignment: 9
-      pivot: {x: 0.5980118, y: 0.30227944}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 339269e8dedb9e6499e5db67660ff23d
-      internalID: -979775287
+      spriteID: 639a0e73a6a59c24cbb2b33378d8001d
+      internalID: -1350282593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_4"
+      name: BS2
       rect:
         serializedVersion: 2
-        x: 255
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.5997635, y: 0.2800869}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3a8b9b180788d84f84e8e4dae7f94c6
-      internalID: 1307990643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_5"
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 15
-        width: 20
+        x: 22
+        y: 0
+        width: 22
         height: 35
-      alignment: 9
-      pivot: {x: 0.6022064, y: 0.29877433}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 271e3d09829a1974690145fa71dc0b7d
-      internalID: -2054645013
+      spriteID: dd80f68fbd0ea8748a473253d9b4e598
+      internalID: 484794295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_6"
+      name: BS3
       rect:
         serializedVersion: 2
-        x: 375
-        y: 15
-        width: 20
-        height: 36
-      alignment: 9
-      pivot: {x: 0.59970856, y: 0.32125917}
+        x: 44
+        y: 0
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eb69e49ee8fdf14eab1682df17b334a
-      internalID: 1053496150
+      spriteID: 5f18eed8043c3e849a4f5de2d0658561
+      internalID: -1904996407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9409e7c312fa648bd614d01440d7fc
+      internalID: -2064481386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b37244a2e9a5834296c8910defb8ed7
+      internalID: 1908724109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a84e6ea47f2064d84f116bc733e2a8
+      internalID: 850916288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BS7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd25edf9f85727540a329ad6d136b429
+      internalID: -1440967039
       vertices: []
       indices: 
       edges: []
@@ -267,20 +267,20 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Brasile\xF1a Animacion-Sheet_0": 1467278914
-      "Brasile\xF1a Animacion-Sheet_1": -1738742002
-      "Brasile\xF1a Animacion-Sheet_2": -1104961097
-      "Brasile\xF1a Animacion-Sheet_3": -979775287
-      "Brasile\xF1a Animacion-Sheet_4": 1307990643
-      "Brasile\xF1a Animacion-Sheet_5": -2054645013
-      "Brasile\xF1a Animacion-Sheet_6": 1053496150
+      BS1: -1350282593
+      BS2: 484794295
+      BS3: -1904996407
+      BS4: -2064481386
+      BS5: 1908724109
+      BS6: 850916288
+      BS7: -1440967039
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
