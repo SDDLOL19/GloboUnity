@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d7199cd29ffd034d809bcf032fc95e9
+guid: 3f8c0588d9b5d1e4f92e76b5978111c9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,29 +100,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BS1
+      name: BC1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639a0e73a6a59c24cbb2b33378d8001d
-      internalID: -1350282593
+      spriteID: e56b03bd29b54714fb482845fa4f0f6d
+      internalID: -734925936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS2
+      name: BC2
       rect:
         serializedVersion: 2
         x: 22
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd80f68fbd0ea8748a473253d9b4e598
-      internalID: 484794295
+      spriteID: e29803043723eed46acc794fcda7a026
+      internalID: -2041020089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS3
+      name: BC3
       rect:
         serializedVersion: 2
         x: 44
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f18eed8043c3e849a4f5de2d0658561
-      internalID: -1904996407
+      spriteID: 8ecc689046e778b41a694d04eac56567
+      internalID: 652247383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS4
+      name: BC4
       rect:
         serializedVersion: 2
         x: 66
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f9409e7c312fa648bd614d01440d7fc
-      internalID: -2064481386
+      spriteID: f7e35ead090344f4e9f9fd05424d22e1
+      internalID: -389144863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS5
+      name: BC5
       rect:
         serializedVersion: 2
         x: 88
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b37244a2e9a5834296c8910defb8ed7
-      internalID: 1908724109
+      spriteID: 880433ab78838034686b0e3145e93fb5
+      internalID: 1444972981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS6
+      name: BC6
       rect:
         serializedVersion: 2
         x: 110
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a84e6ea47f2064d84f116bc733e2a8
-      internalID: 850916288
+      spriteID: 42e131ca4723aba489d4541066b3aef3
+      internalID: 961060926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BS7
+      name: BC7
       rect:
         serializedVersion: 2
         x: 132
-        y: 0
+        y: 1
         width: 22
-        height: 35
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd25edf9f85727540a329ad6d136b429
-      internalID: -1440967039
+      spriteID: af5f3340dc788b247841b950d492e961
+      internalID: -1331011671
       vertices: []
       indices: 
       edges: []
@@ -273,13 +261,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BS5: 1908724109
-      BS7: -1440967039
-      BS6: 850916288
-      BS1: -1350282593
-      BS4: -2064481386
-      BS3: -1904996407
-      BS2: 484794295
+      BC7: -1331011671
+      BC2: -2041020089
+      BC3: 652247383
+      BC5: 1444972981
+      BC6: 961060926
+      BC4: -389144863
+      BC1: -734925936
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

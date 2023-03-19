@@ -35,31 +35,31 @@ public class Jugador : MonoBehaviour
     }
     public void Movimiento()
     {
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame && !Dash)
+        if (Keyboard.current.leftArrowKey.isPressed && !Dash)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1000f * Time.deltaTime, 0));
-            gameObject.GetComponent<Animator>().SetBool("moving", true); //Establecerle la animcaion de caminar
+            CR.AddForce(new Vector2(-1000f * Time.deltaTime, 0));
+            anim.SetBool("moving", true); //Establecerle la animcaion de caminar
             gameObject.GetComponent<SpriteRenderer>().flipX = true; //para dar la vuelta al personaje
         }
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame && !Dash)
+        if (Keyboard.current.rightArrowKey.isPressed && !Dash)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000f * Time.deltaTime, 0));
-            gameObject.GetComponent<Animator>().SetBool("moving", true);
+            CR.AddForce(new Vector2(1000f * Time.deltaTime, 0));
+            anim.SetBool("moving", true);
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
 
-        if (!Keyboard.current.leftArrowKey.wasPressedThisFrame && !Keyboard.current.rightArrowKey.wasPressedThisFrame || Keyboard.current.leftArrowKey.wasPressedThisFrame && Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        if(CR.velocity.x != 0)
         {
-            gameObject.GetComponent<Animator>().SetBool("moving", false);
+            anim.SetBool("moving", false);
 
         }
     }
     public void Salto()
     {
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame && canJump)
+        if (Keyboard.current.upArrowKey.isPressed && canJump)
         {
             canJump = false;
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 400f));
+            CR.AddForce(new Vector2(0, 400f));
 
         }
     }
@@ -79,35 +79,35 @@ public class Jugador : MonoBehaviour
 
     public void DashMove()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current.spaceKey.isPressed)
         {
             Dash_T += 1 * Time.deltaTime;
-            if (Dash_T < 0.35f && Input.GetKey("right") && !Input.GetKey("left"))
+            if (Dash_T < 0.35f && Keyboard.current.rightArrowKey.isPressed && !Keyboard.current.leftArrowKey.isPressed)
             {
 
                 Dash = true;
-                gameObject.GetComponent<Animator>().SetBool("dash", true);
+                anim.SetBool("dash", true);
                 transform.Translate(Vector3.right * 300f * Time.deltaTime);
                 Shadows.me.Sombras_skill();
             }
-            if (Dash_T < 0.35f && Input.GetKey("left") && !Input.GetKey("right"))
+            if (Dash_T < 0.35f && Keyboard.current.leftArrowKey.isPressed && !Keyboard.current.rightArrowKey.isPressed)
             {
                 Dash = true;
-                gameObject.GetComponent<Animator>().SetBool("dash", true);
+                anim.SetBool("dash", true);
                 transform.Translate(Vector3.left * 300f * Time.deltaTime);
                 Shadows.me.Sombras_skill();
             }
             else
             {
                 Dash = false;
-                gameObject.GetComponent<Animator>().SetBool("dash", false);
+                anim.SetBool("dash", false);
             }
 
         }
         else
         {
             Dash = false;
-            gameObject.GetComponent<Animator>().SetBool("dash", false);
+            anim.SetBool("dash", false);
             Dash_T = 0;
         }
     }

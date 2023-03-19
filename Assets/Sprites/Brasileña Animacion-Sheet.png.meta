@@ -3,7 +3,7 @@ guid: 1cb0e0c0648241d46a3c551398b6e7e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -115,154 +114,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_0"
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.60229075, y: 0.2797158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4977695631a469745977a9764e3b7d1e
-      internalID: 1467278914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_1"
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.60220873, y: 0.279068}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db2fa18eb4e6ad1499eb34e6998fea79
-      internalID: -1738742002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_2"
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 15
-        width: 20
-        height: 36
-      alignment: 9
-      pivot: {x: 0.6020996, y: 0.32101038}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea560ac4e6058744394dfa238740635c
-      internalID: -1104961097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_3"
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 16
-        width: 20
-        height: 35
-      alignment: 9
-      pivot: {x: 0.5980118, y: 0.30227944}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 339269e8dedb9e6499e5db67660ff23d
-      internalID: -979775287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_4"
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 15
-        width: 20
-        height: 34
-      alignment: 9
-      pivot: {x: 0.5997635, y: 0.2800869}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3a8b9b180788d84f84e8e4dae7f94c6
-      internalID: 1307990643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_5"
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 15
-        width: 20
-        height: 35
-      alignment: 9
-      pivot: {x: 0.6022064, y: 0.29877433}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 271e3d09829a1974690145fa71dc0b7d
-      internalID: -2054645013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Brasile\xF1a Animacion-Sheet_6"
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 15
-        width: 20
-        height: 36
-      alignment: 9
-      pivot: {x: 0.59970856, y: 0.32125917}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eb69e49ee8fdf14eab1682df17b334a
-      internalID: 1053496150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -273,14 +125,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Brasile\xF1a Animacion-Sheet_0": 1467278914
-      "Brasile\xF1a Animacion-Sheet_1": -1738742002
-      "Brasile\xF1a Animacion-Sheet_2": -1104961097
-      "Brasile\xF1a Animacion-Sheet_3": -979775287
-      "Brasile\xF1a Animacion-Sheet_4": 1307990643
-      "Brasile\xF1a Animacion-Sheet_5": -2054645013
-      "Brasile\xF1a Animacion-Sheet_6": 1053496150
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
