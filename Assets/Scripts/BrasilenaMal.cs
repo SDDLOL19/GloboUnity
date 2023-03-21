@@ -36,15 +36,18 @@ public class BrasilenaMal : MonoBehaviour
         {
             AnimBras.SetBool("dash", false);
 
-            if (RigidBras.velocity.x == 0)
+            if (AnimBras.GetBool("caer") == false)
             {
-                AnimBras.SetBool("moving", false);
-            }
+                if (RigidBras.velocity.x == 0)
+                {
+                    AnimBras.SetBool("moving", false);
+                }
 
-            if (RigidBras.velocity.x != 0)
-            {
-                AnimBras.SetBool("moving", true); //Establecerle la animcaion de caminar
-            }
+                if (RigidBras.velocity.x != 0)
+                {
+                    AnimBras.SetBool("moving", true); //Establecerle la animcaion de caminar
+                }
+            }    
 
             if (RigidBras.velocity.y > 0)
             {
@@ -77,13 +80,13 @@ public class BrasilenaMal : MonoBehaviour
 
         if (Keyboard.current.leftArrowKey.isPressed && !Dash)
         {
-            RigidBras.velocity = Vector2.left * speed;
+            RigidBras.velocity = new Vector2(-speed, RigidBras.velocity.y);
             gameObject.GetComponent<SpriteRenderer>().flipX = true; //para dar la vuelta al personaje
         }
 
         if (Keyboard.current.rightArrowKey.isPressed && !Dash)
         {
-            RigidBras.velocity = Vector2.right * speed;
+            RigidBras.velocity = new Vector2 (speed, RigidBras.velocity.y);
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
     }
@@ -130,7 +133,7 @@ public class BrasilenaMal : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
         {
