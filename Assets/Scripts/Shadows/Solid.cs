@@ -18,11 +18,11 @@ public class Solid : MonoBehaviour
         myRenderer.color = _color; //El color de mi render sea igual a nuestra variable color
     }
 
-    // Update is called once per frame
     void Update()
     {
         ColorSprite();
     }
+
     public void Finish()
     {
         gameObject.SetActive(false);
