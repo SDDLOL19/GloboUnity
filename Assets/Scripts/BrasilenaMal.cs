@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Jugador : MonoBehaviour
+public class BrasilenaMal : MonoBehaviour
 {
     bool canJump;
 
@@ -42,11 +42,6 @@ public class Jugador : MonoBehaviour
             {
                 anim.SetBool("moving", true); //Establecerle la animcaion de caminar
             }
-        }
-
-        if (CR.velocity.y > 0)
-        {
-            gameObject.GetComponent<Animator>().SetBool("saltar", true);
         }
 
         if (CR.velocity.y < 0)

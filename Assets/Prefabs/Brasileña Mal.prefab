@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3450790397799510623}
   - component: {fileID: 1777180944715744051}
   m_Layer: 0
-  m_Name: Square
+  m_Name: "Brasile\xF1a Mal"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,5 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sombra: {fileID: 0}
   pool: []
-  speed: 0
-  _color: {r: 0, g: 0, b: 0, a: 0}
+  speed: 6
+  _color: {r: 0.6698113, g: 0.2432805, b: 0.2432805, a: 0}
