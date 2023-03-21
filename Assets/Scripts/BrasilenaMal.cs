@@ -7,18 +7,16 @@ public class BrasilenaMal : MonoBehaviour
 {
     bool canJump;
 
-    public Rigidbody2D CR;
-    public Animator anim;
-    //private Collider2D coll;
-    //private enum Estado { Idle, Move, Saltar, Caer, Dash }
-
+    Rigidbody2D RigidBras;
+    [SerializeField] Animator AnimBras;
     public bool Dash;
-    public float Dash_Time;
+    float Dash_Time;
+    [SerializeField] float speed;
 
     private void Start()
     {
-        CR = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        RigidBras = GetComponent<Rigidbody2D>();
+        AnimBras = GetComponent<Animator>();
     }
 
     void Update()
@@ -33,33 +31,41 @@ public class BrasilenaMal : MonoBehaviour
     {
         if (!Dash)
         {
-            if (CR.velocity.x == 0)
+            if (RigidBras.velocity.x == 0)
             {
-                anim.SetBool("moving", false);
+                AnimBras.SetBool("moving", false);
             }
 
-            if (CR.velocity.x != 0)
+            if (RigidBras.velocity.x != 0)
             {
-                anim.SetBool("moving", true); //Establecerle la animcaion de caminar
+                AnimBras.SetBool("moving", true); //Establecerle la animcaion de caminar
+            }
+
+            if (RigidBras.velocity.y < 0)
+            {
+                gameObject.GetComponent<Animator>().SetBool("caer", true);
             }
         }
 
-        if (CR.velocity.y < 0)
+        else
         {
-            gameObject.GetComponent<Animator>().SetBool("caer", true);
+            AnimBras.SetBool("dash", false);
         }
     }
 
     public void Movimiento()
     {
+        RigidBras.velocity = Vector2.zero;
+
         if (Keyboard.current.leftArrowKey.isPressed && !Dash)
         {
-            CR.AddForce(new Vector2(-1000f * Time.deltaTime, 0));
+            RigidBras.velocity = Vector2.left * speed;
             gameObject.GetComponent<SpriteRenderer>().flipX = true; //para dar la vuelta al personaje
         }
+
         if (Keyboard.current.rightArrowKey.isPressed && !Dash)
         {
-            CR.AddForce(new Vector2(1000f * Time.deltaTime, 0));
+            RigidBras.velocity = Vector2.right * speed;
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
     }
@@ -68,8 +74,7 @@ public class BrasilenaMal : MonoBehaviour
         if (Keyboard.current.upArrowKey.isPressed && canJump)
         {
             canJump = false;
-            CR.AddForce(new Vector2(0, 400f));
-
+            RigidBras.AddForce(new Vector2(0, 400f));
         }
     }
 
@@ -77,33 +82,34 @@ public class BrasilenaMal : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed)
         {
-            Dash_Time += 1 * Time.deltaTime;
+            Dash_Time += Time.deltaTime;
             if (Dash_Time < 0.35f && Keyboard.current.rightArrowKey.isPressed && !Keyboard.current.leftArrowKey.isPressed)
             {
-
                 Dash = true;
-                anim.SetBool("dash", true);
+                AnimBras.SetBool("dash", true);
                 transform.Translate(Vector3.right * 300f * Time.deltaTime);
                 Shadows.me.Sombras_skill();
             }
+
             if (Dash_Time < 0.35f && Keyboard.current.leftArrowKey.isPressed && !Keyboard.current.rightArrowKey.isPressed)
             {
                 Dash = true;
-                anim.SetBool("dash", true);
+                AnimBras.SetBool("dash", true);
                 transform.Translate(Vector3.left * 300f * Time.deltaTime);
                 Shadows.me.Sombras_skill();
             }
+
             else
             {
                 Dash = false;
-                anim.SetBool("dash", false);
+                AnimBras.SetBool("dash", false);
             }
-
         }
+
         else
         {
             Dash = false;
-            anim.SetBool("dash", false);
+            AnimBras.SetBool("dash", false);
             Dash_Time = 0;
         }
     }
