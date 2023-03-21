@@ -44,14 +44,22 @@ public class BrasilenaMal : MonoBehaviour
                 AnimBras.SetBool("moving", true); //Establecerle la animcaion de caminar
             }
 
-            if (RigidBras.velocity.y >= 0)
+            if (RigidBras.velocity.y > 0)
             {
-                gameObject.GetComponent<Animator>().SetBool("caer", false);
+                AnimBras.SetBool("saltar", true);
+                AnimBras.SetBool("caer", false);
+            }
+
+            if (RigidBras.velocity.y == 0)
+            {
+                AnimBras.SetBool("saltar", false);
+                AnimBras.SetBool("caer", false);
             }
 
             if (RigidBras.velocity.y < 0)
             {
-                gameObject.GetComponent<Animator>().SetBool("caer", true);
+                AnimBras.SetBool("saltar", false);
+                AnimBras.SetBool("caer", true);
             }
         }
 
