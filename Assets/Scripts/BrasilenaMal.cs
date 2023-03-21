@@ -34,6 +34,8 @@ public class BrasilenaMal : MonoBehaviour
     {
         if (!Dash)
         {
+            AnimBras.SetBool("dash", false);
+
             if (RigidBras.velocity.x == 0)
             {
                 AnimBras.SetBool("moving", false);
@@ -65,7 +67,7 @@ public class BrasilenaMal : MonoBehaviour
 
         else
         {
-            AnimBras.SetBool("dash", false);
+            AnimBras.SetBool("dash", true);
         }
     }
 
@@ -102,16 +104,14 @@ public class BrasilenaMal : MonoBehaviour
             if (Dash_Time < 0.35f && Keyboard.current.rightArrowKey.isPressed && !Keyboard.current.leftArrowKey.isPressed)
             {
                 Dash = true;
-                AnimBras.SetBool("dash", true);
-                transform.Translate(Vector3.right * 300f * Time.deltaTime);
+                RigidBras.velocity = Vector2.right * speed * 2;
                 Shadows.me.Sombras_skill();
             }
 
             if (Dash_Time < 0.35f && Keyboard.current.leftArrowKey.isPressed && !Keyboard.current.rightArrowKey.isPressed)
             {
                 Dash = true;
-                AnimBras.SetBool("dash", true);
-                transform.Translate(Vector3.left * 300f * Time.deltaTime);
+                RigidBras.velocity = Vector2.left * speed * 2;
                 Shadows.me.Sombras_skill();
             }
 
@@ -125,7 +125,6 @@ public class BrasilenaMal : MonoBehaviour
         else
         {
             Dash = false;
-            AnimBras.SetBool("dash", false);
             Dash_Time = 0;
         }
     }
