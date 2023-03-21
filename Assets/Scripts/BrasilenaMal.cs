@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class BrasilenaMal : MonoBehaviour
 {
-    bool canJump;
+    bool canJump = true;
 
     Rigidbody2D RigidBras;
     [SerializeField] Animator AnimBras;
@@ -21,7 +21,10 @@ public class BrasilenaMal : MonoBehaviour
 
     void Update()
     {
-        Movimiento();
+        if (AnimBras.GetBool("caer") == false || AnimBras.GetBool("dash") == false)
+        {
+            Movimiento();
+        }
         Salto();
         DashMove();
         AnimationSystem();
@@ -41,6 +44,11 @@ public class BrasilenaMal : MonoBehaviour
                 AnimBras.SetBool("moving", true); //Establecerle la animcaion de caminar
             }
 
+            if (RigidBras.velocity.y >= 0)
+            {
+                gameObject.GetComponent<Animator>().SetBool("caer", false);
+            }
+
             if (RigidBras.velocity.y < 0)
             {
                 gameObject.GetComponent<Animator>().SetBool("caer", true);
@@ -55,7 +63,7 @@ public class BrasilenaMal : MonoBehaviour
 
     public void Movimiento()
     {
-        RigidBras.velocity = Vector2.zero;
+        RigidBras.velocity = new Vector2(0, RigidBras.velocity.y);
 
         if (Keyboard.current.leftArrowKey.isPressed && !Dash)
         {
@@ -74,7 +82,7 @@ public class BrasilenaMal : MonoBehaviour
         if (Keyboard.current.upArrowKey.isPressed && canJump)
         {
             canJump = false;
-            RigidBras.AddForce(new Vector2(0, 400f));
+            RigidBras.velocity = Vector2.up * speed;
         }
     }
 
@@ -117,10 +125,9 @@ public class BrasilenaMal : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "ground")
+        if (collision.gameObject.tag == "Ground")
         {
             canJump = true;
-
         }
     }
 
