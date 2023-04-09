@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class PlayerSystem : MonoBehaviour
+public class PlayerDos : MonoBehaviour
 {
     bool canJump;
-    bool canMove;
+    public bool canMove;
     bool canDash;
     public bool dashing;
 
+    [SerializeField] GameObject punchCollision;
     [SerializeField] GameObject spawnPoint;
     [SerializeField] TextMeshProUGUI textoEnergy;
 
@@ -19,7 +20,7 @@ public class PlayerSystem : MonoBehaviour
 
     [SerializeField] int cantidadSaltos;
     float dashTime;
-    float energyBar = 100;
+    public float energyBar = 100;
     [SerializeField] float speed;
     [SerializeField] float jumpForce;
 
@@ -28,6 +29,7 @@ public class PlayerSystem : MonoBehaviour
         canMove = true;
         canJump = true;
         cantidadSaltos = 0;
+        punchCollision.SetActive(false);   //Colision desactivada para evitar que reaccionen a ella al empezar
         playerRigid = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
     }
@@ -38,6 +40,11 @@ public class PlayerSystem : MonoBehaviour
         if (canMove == true)
         {
             MovementSystem();
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                NormalPunching();
+            }   
         }
         EnergySystem();
     }
@@ -104,16 +111,17 @@ public class PlayerSystem : MonoBehaviour
             }
         }
 
-        if (canDash && energyBar == 100)
+        if (Mouse.current.rightButton.isPressed)
         {
             DashMove();
         }
 
-        if (Keyboard.current.spaceKey.wasReleasedThisFrame)
+        if (Mouse.current.rightButton.wasReleasedThisFrame)
         {
             dashing = false;
             canDash = true;
             dashTime = 0;
+            EnergyWaste();
         }
     }
 
@@ -124,13 +132,13 @@ public class PlayerSystem : MonoBehaviour
         if (Keyboard.current.leftArrowKey.isPressed)
         {
             playerRigid.velocity = new Vector2(-speed, playerRigid.velocity.y);
-            gameObject.GetComponent<SpriteRenderer>().flipX = true; //para dar la vuelta al personaje
+            this.transform.localScale = new Vector3(-1, 1, 1); //para dar la vuelta al personaje y todos sus aspectos
         }
 
         if (Keyboard.current.rightArrowKey.isPressed)
         {
             playerRigid.velocity = new Vector2(speed, playerRigid.velocity.y);
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            this.transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
@@ -143,26 +151,61 @@ public class PlayerSystem : MonoBehaviour
 
     void DashMove()
     {
-        if (Keyboard.current.spaceKey.isPressed)
+        if (canDash && energyBar == 100)
         {
             dashTime += Time.deltaTime;
 
-            if (dashTime < 0.35f && Keyboard.current.rightArrowKey.isPressed)
+            if (dashTime < 0.35f)
             {
-                dashing = true;
-                playerRigid.velocity = Vector2.right * speed * 2;
-                Shadows.me.Sombras_skill();
+                if (Keyboard.current.rightArrowKey.isPressed)
+                {
+                    dashing = true;
+                    playerRigid.velocity = Vector2.right * speed * 2;
+                    Shadows.me.Sombras_skill();
+                }
+
+                else if (Keyboard.current.leftArrowKey.isPressed)
+                {
+                    dashing = true;
+                    playerRigid.velocity = Vector2.left * speed * 2;
+                    Shadows.me.Sombras_skill();
+                }
             }
 
-            else if (dashTime < 0.35f && Keyboard.current.leftArrowKey.isPressed)
+            else if (dashTime >= 0.35f)
             {
-                dashing = true;
-                playerRigid.velocity = Vector2.left * speed * 2;
-                Shadows.me.Sombras_skill();
+                dashing = false;
+                canDash = false;
+                EnergyWaste();
             }
-
-            EnergyWaste();
         }
+    }
+
+    void NormalPunching()     //Hace el puñetazo. El detectar el jugador contrario lo hace el collision2D del TriggerPunch
+    {
+        canMove = false;
+        punchCollision.SetActive(true);   //Activa la colision del puño
+        Invoke("DesactivarPunch", 0.21f);
+    }
+
+    void DesactivarPunch()         //Desactiva la colisión del puño
+    {
+        punchCollision.SetActive(false);
+        canMove = true;
+    }
+
+    public void Aturdirse()
+    {
+        if (canMove == true)
+        {
+            canMove = false;
+            Invoke("Desaturdirse", 1);
+        }      
+    }
+
+    void Desaturdirse()
+    {
+        canMove = true;
     }
 
     void EnergySystem()
@@ -176,7 +219,7 @@ public class PlayerSystem : MonoBehaviour
         }
     }
 
-    void EnergyWaste()
+    public void EnergyWaste()
     {
         energyBar = 0;
     }
@@ -200,6 +243,15 @@ public class PlayerSystem : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            canJump = true;
+            cantidadSaltos = 0;
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
         {

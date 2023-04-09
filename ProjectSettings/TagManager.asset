@@ -6,6 +6,13 @@ TagManager:
   tags:
   - DeathZone
   - Ground
+  - Player2
+  - Player1
+  - Globo
+  - Cabeza2
+  - Cabeza1
+  - Punch2
+  - Punch1
   layers:
   - Default
   - TransparentFX
