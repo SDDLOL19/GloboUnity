@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Globo : MonoBehaviour
 {
-    int estadoGlobo; //0 es sin tocar, 1 es turno jugador 1, 2 es turno jugador 2
+    [SerializeField] int estadoGlobo; //0 es sin tocar, 1 es turno jugador 1, 2 es turno jugador 2
     [SerializeField] float escalaGravedad;
     [SerializeField] float fuerzaCabezazo;
     [SerializeField] Vector2 fuerzaPunch;
     SpriteRenderer spriteGlobo;
     [SerializeField] GameManager manejadorPartida;
+    Animator animacionGlobo;
+    [SerializeField] Sprite spriteBase;
     Rigidbody2D fisicasGlobo;
     [SerializeField] Transform spawnerGlobo;
 
     void Start()
-    {
-        Spawn();
+    {       
         estadoGlobo = 0;
+        animacionGlobo = GetComponent<Animator>();
         fisicasGlobo = GetComponent<Rigidbody2D>();
         spriteGlobo = GetComponent<SpriteRenderer>();
-        spriteGlobo.color = new Vector4(1, 1, 1, 1);
+        Spawn();
     }
 
     private void Update()
@@ -39,17 +41,18 @@ public class Globo : MonoBehaviour
         }
     }
 
-    void Spawn()
+    public void Spawn()
     {
+        animacionGlobo.SetBool("GloboMuerte", false);
         estadoGlobo = 0;
-        this.transform.position = spawnerGlobo.position;
+        this.transform.position = spawnerGlobo.position;      
     }
 
     void Explode()
     {
         manejadorPartida.SumarPuntos(estadoGlobo);
         DesactivarFisicas();
-        Spawn();
+        animacionGlobo.SetBool("GloboMuerte", true);
     }
 
     void RecibirCabezazo()
@@ -88,7 +91,7 @@ public class Globo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ground" && fisicasGlobo.velocity.y < 0)  //Si se choca contra el suelo mientras cae */
+        if ((collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform") && fisicasGlobo.velocity.y < 0)  //Si se choca contra el suelo mientras cae */
         {
             Debug.Log("Hey all, Scott here");
             Explode();

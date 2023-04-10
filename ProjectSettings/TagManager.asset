@@ -13,6 +13,7 @@ TagManager:
   - Cabeza1
   - Punch2
   - Punch1
+  - Platform
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7920699875555194147}
   - component: {fileID: 8495647889567159998}
   - component: {fileID: 8464049408186466224}
+  - component: {fileID: 1895511130}
   m_Layer: 0
   m_Name: GloboJuego
   m_TagString: Globo
@@ -115,10 +116,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a2caa918b56cea4faf04c60326b3aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  estadoGlobo: 1
   escalaGravedad: 0.5
   fuerzaCabezazo: 6
   fuerzaPunch: {x: 6, y: 3}
   manejadorPartida: {fileID: 0}
+  spriteBase: {fileID: -110202032, guid: 73d92e0a835dfcb4abd8996365c6110a, type: 3}
   spawnerGlobo: {fileID: 0}
 --- !u!50 &8464049408186466224
 Rigidbody2D:
@@ -141,3 +144,23 @@ Rigidbody2D:
   m_SleepingMode: 2
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1895511130
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7920699875555194204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7854c6db8583584e9053f0bf9b4e0bd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

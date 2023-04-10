@@ -102,4 +102,21 @@ public class PlayerUno : Player      //Clase pplayer para que coja todo lo básic
             }
         }
     }
+
+    void ActivarColision()
+    {
+        GetComponent<Collider2D>().isTrigger = false;
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            if (Keyboard.current.sKey.wasPressedThisFrame)
+            {
+                GetComponent<Collider2D>().isTrigger = true;
+                Invoke("ActivarColision", 0.3f);
+            }
+        }
+    }
 }
