@@ -525,10 +525,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1777180944715744051, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: speed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777180944715744051, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: sombra
       value: 
       objectReference: {fileID: 967602921}
@@ -2285,10 +2281,6 @@ PrefabInstance:
     - target: {fileID: 5503216906382866320, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
       propertyPath: m_Name
       value: Player1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158550228250845201, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
-      propertyPath: speed
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8158550228250845201, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
       propertyPath: sombra
