@@ -88,13 +88,23 @@ public class Player : MonoBehaviour
     public void NormalPunching()     //Hace el puñetazo. El detectar el jugador contrario lo hace el collision2D del TriggerPunch
     {
         canMove = false;
+        if (energyBar == 100)
+        {
+            playerAnim.Play("Puñetazo");
+        }
+
+        else
+        {
+            playerAnim.Play("PuñoGlobo");
+        }
+        
         punchCollision.SetActive(true);   //Activa la colision del puño
-        Invoke("DesactivarPunch", 0.21f);
     }
 
-    void DesactivarPunch()         //Desactiva la colisión del puño
+    public void DesactivarPunch()         //Desactiva la colisión del puño
     {
         punchCollision.SetActive(false);
+        playerAnim.Play("Idle");
         PermitirMovimiento();
     }
 
@@ -103,12 +113,15 @@ public class Player : MonoBehaviour
         if (canMove == true)
         {
             canMove = false;
+            playerAnim.SetBool("stunted", true);
+            playerAnim.Play("Stun");
             Invoke("Desaturdirse", 1);
         }
     }
 
     void Desaturdirse()
     {
+        playerAnim.SetBool("stunted", false);
         PermitirMovimiento();
     }
 
@@ -131,12 +144,16 @@ public class Player : MonoBehaviour
     void DeathSystem()
     {
         canMove = false;
-        PlayerSpawn();
+        playerRigid.gravityScale = 0;
+        playerRigid.velocity = Vector2.zero;
+        playerAnim.SetBool("dying", true);
+        playerAnim.Play("Muerte");
     }
 
-    void PlayerSpawn()
+    public void PlayerSpawn()
     {
-        playerRigid.velocity = Vector2.zero;
+        playerAnim.SetBool("dying", false);
+        playerRigid.gravityScale = 3;
         this.transform.position = spawnPoint.transform.position;
         Invoke("PermitirMovimiento", 1.0f);
     }
