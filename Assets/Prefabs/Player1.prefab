@@ -251,7 +251,7 @@ GameObject:
   m_Layer: 0
   m_Name: TriggerPunch
   m_TagString: Punch1
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -308,4 +308,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde5a0d413ed52e4ea2e6e8b742741ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miJugador: {fileID: 0}
+  jugadorEnemigo: Player2

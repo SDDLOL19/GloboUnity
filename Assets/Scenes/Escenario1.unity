@@ -540,22 +540,6 @@ PrefabInstance:
       propertyPath: textoEnergy
       value: 
       objectReference: {fileID: 1763349589}
-    - target: {fileID: 5123041143777394045, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: spawnPoint
-      value: 
-      objectReference: {fileID: 879593267}
-    - target: {fileID: 5123041143777394045, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: textoEnergy
-      value: 
-      objectReference: {fileID: 1763349589}
-    - target: {fileID: 5728459334710117567, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: miJugador
-      value: 
-      objectReference: {fileID: 1399229210}
-    - target: {fileID: 5728459334710117567, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: jugadorEnemigo
-      value: Player1
-      objectReference: {fileID: 0}
     - target: {fileID: 6837909026884011711, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -791,10 +775,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1018028162608196541, guid: 59b14fa4a6ef4e746bf98778dd5c0a58, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2196618839077154327, guid: 59b14fa4a6ef4e746bf98778dd5c0a58, type: 3}
       propertyPath: m_Name
       value: Shadows 2
@@ -1369,17 +1349,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1399229210 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4187966401813189951, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-  m_PrefabInstance: {fileID: 569613324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb76eb8a71f51a34781dd56076a3a1ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1581694738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2196618839077154327, guid: 59b14fa4a6ef4e746bf98778dd5c0a58, type: 3}
@@ -1395,10 +1364,6 @@ PrefabInstance:
     - target: {fileID: 1560736359281367156, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1560736359281367156, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.687639
       objectReference: {fileID: 0}
     - target: {fileID: 1560736359281367156, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1639,10 +1604,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1018028162608196541, guid: 59b14fa4a6ef4e746bf98778dd5c0a58, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2196618839077154327, guid: 59b14fa4a6ef4e746bf98778dd5c0a58, type: 3}
       propertyPath: m_Name
       value: Shadows 1
@@ -2063,10 +2024,6 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1560736359281367156, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 11.644405
-      objectReference: {fileID: 0}
-    - target: {fileID: 1560736359281367156, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.56
       objectReference: {fileID: 0}
@@ -2109,10 +2066,6 @@ PrefabInstance:
     - target: {fileID: 1560736359281367158, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
       propertyPath: m_Name
       value: Pinchos
-      objectReference: {fileID: 0}
-    - target: {fileID: 1560736359281367158, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5345136d83a0324d8d95af12d6368ed, type: 3}
@@ -2358,18 +2311,6 @@ PrefabInstance:
       propertyPath: spawnerGlobo
       value: 
       objectReference: {fileID: 1813600054}
-    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: fuerzaPunch.x
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: fuerzaPunch.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: fuerzaCabezazo
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: manejadorPartida
       value: 

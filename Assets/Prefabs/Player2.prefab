@@ -308,4 +308,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde5a0d413ed52e4ea2e6e8b742741ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miJugador: {fileID: 0}
+  jugadorEnemigo: Player1
