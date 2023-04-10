@@ -2253,22 +2253,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: GloboJuego
       objectReference: {fileID: 0}
-    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_SleepingMode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: spawnerGlobo
       value: 
       objectReference: {fileID: 1813600054}
+    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: fuerzaPunch.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: fuerzaPunch.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: fuerzaCabezazo
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: manejadorPartida
       value: 
