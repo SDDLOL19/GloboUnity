@@ -6,6 +6,7 @@ public class Globo : MonoBehaviour
 {
     int estadoGlobo; //0 es sin tocar, 1 es turno jugador 1, 2 es turno jugador 2
     SpriteRenderer spriteGlobo;
+    GameManager manejadorPartida;
 
     void Start()
     {
@@ -26,11 +27,21 @@ public class Globo : MonoBehaviour
         }
     }
 
+    void Explode()
+    {
+        manejadorPartida.SumarPuntos(estadoGlobo);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "DeathZone" || collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "DeathZone")
         {
+            Explode();
+        }
 
+        if (collision.gameObject.tag == "Ground" && collision.transform.position.y < this.transform.position.y)  //Si se choca contra el suelo y el suelo está debajo suya explota 
+        {
+            Explode();
         }
     }
 
@@ -77,7 +88,7 @@ public class Globo : MonoBehaviour
             else if (collision.gameObject.tag == "Cabeza1")
             {
                 estadoGlobo = 2;
-            }            
+            }
 
             else if (collision.gameObject.tag == "Cabeza2")
             {

@@ -208,14 +208,14 @@ public class PlayerDos : MonoBehaviour
         canMove = true;
     }
 
-    void EnergySystem()
+    void EnergySystem()       //Sistema de energía
     {
-        textoEnergy.text = energyBar.ToString();
-        energyBar = Mathf.Clamp(energyBar, 0, 100);
+        textoEnergy.text = energyBar.ToString("0"); //Para que no se muestren decimales en el hud
+        energyBar = Mathf.Clamp(energyBar, 0, 100);     //Limita la variable para que no baje de 0 o suba de 100
 
         if (energyBar < 100)
         {
-            energyBar += Time.deltaTime * (100 / 1.5f);
+            energyBar += Time.deltaTime * (100 / 1.5f);   //Carga la energía en 1,5 segundos
         }
     }
 
