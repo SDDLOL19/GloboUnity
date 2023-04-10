@@ -2528,6 +2528,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: GloboJuego
       objectReference: {fileID: 0}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1595412723, guid: cdbd159f360c81d479d00c0a5334055d, type: 3}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: spawnerGlobo
       value: 

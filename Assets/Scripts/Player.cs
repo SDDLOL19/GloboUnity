@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
         punchCollision.SetActive(false);   //Colision desactivada para evitar que reaccionen a ella al empezar
         playerRigid = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
+        PlayerSpawn();
     }
 
     public void AnimationSystem()
@@ -77,6 +78,7 @@ public class Player : MonoBehaviour
 
     public void Salto()
     {
+        playerAnim.Play("Saltar");
         playerRigid.velocity = Vector2.up * jumpForce;
         canJump = false;
         cantidadSaltos++;
