@@ -191,7 +191,7 @@ public class PlayerDos : MonoBehaviour
     void DesactivarPunch()         //Desactiva la colisión del puño
     {
         punchCollision.SetActive(false);
-        canMove = true;
+        PermitirMovimiento();
     }
 
     public void Aturdirse()
@@ -205,7 +205,7 @@ public class PlayerDos : MonoBehaviour
 
     void Desaturdirse()
     {
-        canMove = true;
+        PermitirMovimiento();
     }
 
     void EnergySystem()       //Sistema de energía
@@ -234,24 +234,15 @@ public class PlayerDos : MonoBehaviour
     {
         playerRigid.velocity = Vector2.zero;
         this.transform.position = spawnPoint.transform.position;
-        Invoke("ControlSystem", 1.0f);
+        Invoke("PermitirMovimiento", 1.0f);
     }
 
-    void ControlSystem()
+    void PermitirMovimiento()
     {
-        canMove = !canMove;
+        canMove = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            canJump = true;
-            cantidadSaltos = 0;
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
         {

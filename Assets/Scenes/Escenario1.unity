@@ -1152,10 +1152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1173,7 +1173,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2219,7 +2219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7920699875555194146, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3.08
       objectReference: {fileID: 0}
     - target: {fileID: 7920699875555194146, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2253,17 +2253,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: GloboJuego
       objectReference: {fileID: 0}
-    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_Color.b
+    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
-      propertyPath: m_Color.r
+    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8464049408186466224, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_SleepingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: spawnerGlobo
+      value: 
+      objectReference: {fileID: 1813600054}
+    - target: {fileID: 8495647889567159998, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: manejadorPartida
+      value: 
+      objectReference: {fileID: 1737132123}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
