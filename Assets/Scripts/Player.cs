@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -13,7 +11,6 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject punchCollision;
     [SerializeField] GameObject spawnPoint;
-    [SerializeField] TextMeshProUGUI textoEnergy;
 
     public Rigidbody2D playerRigid;
     Animator playerAnim;
@@ -127,7 +124,6 @@ public class Player : MonoBehaviour
 
     public void EnergySystem()       //Sistema de energía
     {
-        textoEnergy.text = energyBar.ToString("0"); //Para que no se muestren decimales en el hud
         energyBar = Mathf.Clamp(energyBar, 0, 100);     //Limita la variable para que no baje de 0 o suba de 100
 
         if (energyBar < 100)
