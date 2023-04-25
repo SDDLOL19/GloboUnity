@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: e7dbce7024f088e47848012d7c83697f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkBras1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a25ec569c8ad429a7b5c174c91362
+      internalID: -255615195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 179
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3f0c9d644e4849b956275403369ee
+      internalID: -1564526174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 179
+        width: 20
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0490264c8b2d4498248cfecf8ecbfb
+      internalID: -1788245363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 180
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a338fb19b6e024c8de3139162493b8
+      internalID: -1858871408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 179
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248cb98f0c1d90b4a914858d6f82652b
+      internalID: -525449378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 179
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e675a9654bdd424b99d7428b1988702
+      internalID: -362187307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkBras7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 179
+        width: 20
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eb5fc84e70d1f45845ab92d06347cd
+      internalID: 1020048788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadBras1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 180
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8831f4ed01fd8cd44a78449ca022b203
+      internalID: -150503418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadBras2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 180
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfac850dd9e3f654096ea73f2409671f
+      internalID: 1977261142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadBras5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 178
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5145886, y: 0.15679981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49b9c9c4440a174d94b84abfcea84d1
+      internalID: 1523164280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBras1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca02a1826597ff4fba9483aee9683db
+      internalID: -245462858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBras2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 141
+        width: 20
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf537359f66924f8639379b8816ee8
+      internalID: -2071014558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBras3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 141
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57a8d1cd5e5e574b9b76eb4c30ff654
+      internalID: -105007740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBras4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 141
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ecb571f2533cc42a27abe40f7f11c1
+      internalID: 13308901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallBras1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 142
+        width: 20
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c6964257eb3142b68ac4b307e40b1
+      internalID: 125221390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallBras2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 142
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d205b8d81b062d4e903c4c1a47ac5ae
+      internalID: 818463040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallBras3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 142
+        width: 20
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e86b9182cc75084ea8305da8727162a
+      internalID: -1297483704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oStunBras1"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 132
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaecc32ada34b44388b543bae500f27
+      internalID: 906255360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oStunBras2"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 132
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d436529d9ee86c44a35ec9ccccc9e50
+      internalID: 41535585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oStunBras3"
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 132
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e417545f77b623445ade76c2034d198e
+      internalID: -730538056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oStunBras4"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 132
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c31c990b1a89644bebd0428b87a30f
+      internalID: -407204206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oStunBras5"
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 132
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e465952fb1195a94b825a0ba64d30b23
+      internalID: 1819723356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBras1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a00b749d9967b94daeb78273d616ba0
+      internalID: 1892693473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBras2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 101
+        width: 20
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c63fac1bcc1c0458ca1f7a04e6d0fa
+      internalID: 1333234150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBras3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 101
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f28e0edfd4dd42b446c6abe89b635
+      internalID: -363201229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oBras1"
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 83
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ff55d28429ee4f92e3a833eaf6c3a
+      internalID: -1624947376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oBras2"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 83
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eb413df967d2049a675533f57d619a
+      internalID: 1841896671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oBras3"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 83
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51160d3e4142808479e7cae13dbda03d
+      internalID: 305012493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oBras4"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 83
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa41604104e5c0a4bbb5b916248777aa
+      internalID: -1134296434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1oBras5"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 83
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42610dce4b21f474aa212a0de4f055c9
+      internalID: 1788052620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd83063b6c367d4186ef23f863a6420
+      internalID: -1849731899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88176ca95719fda4e8c946b2e409cee9
+      internalID: -1744785339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9af234913fb509469981c698d463aaa
+      internalID: 1602614075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dec13956319f34c917e273aff256c0
+      internalID: 222041229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa54188964de9c46bfa05400a94eb91
+      internalID: -1615893971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StunBras6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 48
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d479c7fdf2d29d740bf2579c3899a711
+      internalID: 270465445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltiBras1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6785144, y: 0.02916886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5764eb9c7bac59547a4e24fedd780632
+      internalID: 738420168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltiBras2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 36
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6884302, y: 0.02916886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d523da0d1468841b9122e59c4d7875
+      internalID: 2049887972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltiBras3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 36
+        width: 30
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5743805, y: 0.03646099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120facc4723f86849bdba3ce4cda4194
+      internalID: 1097169083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashBras
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 21
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f713659d008244d439e21c5e9dab9908
+      internalID: 783600301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SpriteSheetBrasile\xF1a_9"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4947b73d3fc2c94a90e83558daca21a
+      internalID: 1667910285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadBras3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 178
+        width: 25
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5317993, y: 0.12384626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4302a1eefb29b42a71cd750b87cff6
+      internalID: -1007890464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadBras4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 178
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5269102, y: 0.12346256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e48a6693d15ff34f8d314f539e16443
+      internalID: -110778857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "SpriteSheetBrasile\xF1a_18": 610442926
+      "Pu\xF1oStunBras5": -407204206
+      "Pu\xF1oBras3": 1841896671
+      WalkBras7: -362187307
+      "Pu\xF1oStunBras1": 906255360
+      "Pu\xF1oStunBras3": 41535585
+      DeadBras1: -150503418
+      "Pu\xF1oBras5": -1134296434
+      "SpriteSheetBrasile\xF1a_19": 1410574612
+      FallBras3: 818463040
+      "SpriteSheetBrasile\xF1a_20": -1309906887
+      UltiBras3: 2049887972
+      "SpriteSheetBrasile\xF1a_46": 1386128489
+      WalkBras1: -255615195
+      IdleBras2: 1892693473
+      FallBras1: 125221390
+      "SpriteSheetBrasile\xF1a_12": 522248287
+      "Pu\xF1oStunBras2": 906255360
+      JumpBras3: -2071014558
+      JumpBras4: -105007740
+      StunBras3: -1849731899
+      DeadBras2: -150503418
+      "SpriteSheetBrasile\xF1a_42": 1995086301
+      WalkBras2: -255615195
+      IdleBras3: 1333234150
+      WalkBras3: -1564526174
+      DeadBras3: 1977261142
+      "Pu\xF1oStunBras4": -730538056
+      StunBras5: -1615893971
+      DashBras: 783600301
+      "SpriteSheetBrasile\xF1a_16": -327146186
+      UltiBras2: 738420168
+      "Pu\xF1oBras2": 1819723356
+      FallBras2: 125221390
+      StunBras2: 222041229
+      "SpriteSheetBrasile\xF1a_13": 1733400667
+      JumpBras2: -245462858
+      "SpriteSheetBrasile\xF1a_9": 1667910285
+      StunBras1: 222041229
+      "SpriteSheetBrasile\xF1a_48": -1094717289
+      IdleBras1: 1892693473
+      "SpriteSheetBrasile\xF1a_44": 340774238
+      WalkBras5: -1858871408
+      "SpriteSheetBrasile\xF1a_14": 109994160
+      WalkBras4: -1788245363
+      "Pu\xF1oBras1": -407204206
+      "SpriteSheetBrasile\xF1a_17": -1657525795
+      WalkBras6: -525449378
+      JumpBras1: -245462858
+      StunBras4: -1744785339
+      DeadBras4: -1007890464
+      StunBras6: 1602614075
+      UltiBras1: 738420168
+      "SpriteSheetBrasile\xF1a_15": 280736070
+      DeadBras5: -110778857
+      "Pu\xF1oBras4": 305012493
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

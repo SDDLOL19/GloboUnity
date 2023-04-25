@@ -1,85 +1,181 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    Vector2 movement = new Vector3(0, 0);
-    Rigidbody2D playerRigidbody;
-    public int speed;
-    public int jumpForce;
+    public bool canJump;
+    public bool canMove;
+    public bool canDash;
+    public bool dashing;
 
-    public GameObject spawnPoint;
-    bool canMove;
+    [SerializeField] GameObject punchCollision;
+    [SerializeField] GameObject spawnPoint;
 
-    void Start()
+    public Rigidbody2D playerRigid;
+    Animator playerAnim;
+
+    public int cantidadSaltos;
+    public float dashTime;
+    public float energyBar = 100;
+    public float speed = 6;
+    [SerializeField] float jumpForce = 12;
+
+    private void Start()
     {
         canMove = true;
-        playerRigidbody = this.GetComponent<Rigidbody2D>();
+        canJump = true;
+        cantidadSaltos = 0;
+        punchCollision.SetActive(false);   //Colision desactivada para evitar que reaccionen a ella al empezar
+        playerRigid = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponent<Animator>();
+        PlayerSpawn();
     }
 
-    void Update()
+    public void AnimationSystem()
     {
-        if (canMove)
+        if (!dashing)
         {
-            PlayerControl();
+            playerAnim.SetBool("dash", false);
+
+            if (playerAnim.GetBool("caer") == false)
+            {
+                if (playerRigid.velocity.x == 0)
+                {
+                    playerAnim.SetBool("moving", false);
+                }
+
+                if (playerRigid.velocity.x != 0)
+                {
+                    playerAnim.SetBool("moving", true); //Establecerle la animcaion de caminar
+                }
+            }
+
+            if (playerRigid.velocity.y > 0)
+            {
+                playerAnim.SetBool("saltar", true);
+                playerAnim.SetBool("caer", false);
+            }
+
+            if (playerRigid.velocity.y == 0)
+            {
+                playerAnim.SetBool("saltar", false);
+                playerAnim.SetBool("caer", false);
+            }
+
+            if (playerRigid.velocity.y < 0)
+            {
+                playerAnim.SetBool("saltar", false);
+                playerAnim.SetBool("caer", true);
+            }
+        }
+
+        else
+        {
+            playerAnim.SetBool("dash", true);
         }
     }
 
-    void PlayerControl()
+    public void Salto()
     {
-        playerRigidbody.velocity = new Vector2(0, playerRigidbody.velocity.y);
+        playerAnim.Play("Saltar");
+        playerRigid.velocity = Vector2.up * jumpForce;
+        canJump = false;
+        cantidadSaltos++;
+    }
 
-        if (Keyboard.current.leftArrowKey.isPressed)
+    public void NormalPunching()     //Hace el puñetazo. El detectar el jugador contrario lo hace el collision2D del TriggerPunch
+    {
+        canMove = false;
+        if (energyBar == 100)
         {
-            movement = new Vector2(-speed, 0);
-            PlayerMovement();
+            playerAnim.Play("Puñetazo");
         }
 
-        if (Keyboard.current.rightArrowKey.isPressed)
+        else
         {
-            movement = new Vector2(speed, 0);
-            PlayerMovement();
+            playerAnim.Play("PuñoGlobo");
         }
+        
+        punchCollision.SetActive(true);   //Activa la colision del puño
+    }
 
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+    public void DesactivarPunch()         //Desactiva la colisión del puño
+    {
+        punchCollision.SetActive(false);
+        playerAnim.Play("Idle");
+        PermitirMovimiento();
+    }
+
+    public void Aturdirse()
+    {
+        if (canMove == true)
         {
-            PlayerJump();
-        }
-
-        if (Keyboard.current.downArrowKey.isPressed)
-        {
-
+            canMove = false;
+            playerAnim.SetBool("stunted", true);
+            playerAnim.Play("Stun");
+            Invoke("Desaturdirse", 1);
         }
     }
 
-    void PlayerMovement()
+    void Desaturdirse()
     {
-        playerRigidbody.velocity += movement;
+        playerAnim.SetBool("stunted", false);
+        PermitirMovimiento();
     }
 
-    void PlayerJump()
+    public void EnergySystem()       //Sistema de energía
     {
-        playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, jumpForce);
+        energyBar = Mathf.Clamp(energyBar, 0, 100);     //Limita la variable para que no baje de 0 o suba de 100
+
+        if (energyBar < 100)
+        {
+            energyBar += Time.deltaTime * (100 / 1.5f);   //Carga la energía en 1,5 segundos
+        }
+    }
+
+    public void EnergyWaste()
+    {
+        energyBar = 0;
     }
 
     void DeathSystem()
     {
         canMove = false;
-        PlayerSpawn();
+        playerRigid.gravityScale = 0;
+        playerRigid.velocity = Vector2.zero;
+        playerAnim.SetBool("dying", true);
+        playerAnim.Play("Muerte");
     }
 
-    void PlayerSpawn()
+    public void PlayerSpawn()
     {
-        playerRigidbody.velocity = new Vector2(0, 0);
+        playerAnim.SetBool("dying", false);
+        playerRigid.gravityScale = 3;
         this.transform.position = spawnPoint.transform.position;
-        Invoke("ControlSystem", 1.0f);
+        Invoke("PermitirMovimiento", 1.0f);
     }
 
-    void ControlSystem()
+    void PermitirMovimiento()
     {
-        canMove = !canMove;
+        canMove = true;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
+        {
+            canJump = true;
+            cantidadSaltos = 0;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
+        {
+            canJump = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -89,4 +185,5 @@ public class Player : MonoBehaviour
             DeathSystem();
         }
     }
+
 }
