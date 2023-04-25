@@ -12,7 +12,7 @@ public class PlayerUno : Player      //Clase pplayer para que coja todo lo básic
         {
             MovementSystem();
 
-            if (Keyboard.current.jKey.wasPressedThisFrame)
+            if (Keyboard.current.vKey.wasPressedThisFrame)
             {
                 NormalPunching();
             }
@@ -40,12 +40,12 @@ public class PlayerUno : Player      //Clase pplayer para que coja todo lo básic
             }
         }
 
-        if (Keyboard.current.kKey.isPressed)
+        if (Keyboard.current.bKey.isPressed)
         {
             DashMove();
         }
 
-        if (Keyboard.current.kKey.wasReleasedThisFrame)
+        if (Keyboard.current.bKey.wasReleasedThisFrame)
         {
             dashing = false;
             canDash = true;
