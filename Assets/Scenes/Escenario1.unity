@@ -631,7 +631,7 @@ PrefabInstance:
     - target: {fileID: 6733275496856604323, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 04b1784a61411a44f98200e337fc469f, type: 2}
+      objectReference: {fileID: 9100000, guid: 7238ea5020b66334ab1c781b372bd3ca, type: 2}
     - target: {fileID: 6837909026884011711, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2068,7 +2068,6 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
 --- !u!1001 &1752209474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2358,6 +2357,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3810125480494378369, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
     - target: {fileID: 3995832599911671197, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
       propertyPath: m_RootOrder
       value: 2
