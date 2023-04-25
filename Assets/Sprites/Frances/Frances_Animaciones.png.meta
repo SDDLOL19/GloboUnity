@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: 179da90335ddb844cac2747b6ee6f7ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ulti 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 292
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73a8d794352a74dbeae14dfcb5bf2f
+      internalID: 1786560419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulti 2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 292
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d445ea26a94419429a9b10efbbad08b
+      internalID: -128338250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulti 3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 292
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051063b450e7e04683b25be06feb976
+      internalID: 1655306338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulti 4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 292
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17bae832e3d729438d7d843bee13e4a
+      internalID: 730227385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulti 5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 292
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc412d83d0a55444ab5df1c648d59a50
+      internalID: -1458764334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12745bf4e25094b4e943c5ecfdee342a
+      internalID: -1600782918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 302
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552c58aebca3f744b298d19ddebb570
+      internalID: -578489198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 299
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b15c0b4b252a664b912605d1a8b4eaa
+      internalID: 1297338014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 302
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189dd1e84607768428d4c3d062c12364
+      internalID: -1534486323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 304
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb70c2ea21fddac40b220b68beba4399
+      internalID: 492548565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 302
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3627efa2079544f4597daeab8a5cca1e
+      internalID: -21584210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 299
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55655b13d35ed8459490dac1c3c5128
+      internalID: -1646646087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frances_Animaciones_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 302
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8610ebf8d3f7d46b8ec28342cf7ef7
+      internalID: -231792806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 250
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f0386691ca8374cb005a9664dc6c8f
+      internalID: -1880252079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte 1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 250
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40597d041f96cbf468e9c76bd6575414
+      internalID: 675187382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte 2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 249
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cdf07c7315bc04c8a349e494693597
+      internalID: -237531861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte 3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 247
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5237127, y: 0.090877056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfac24bfc7cd1a842a64c8bff53c310d
+      internalID: -1641321867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte 4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 248
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4718933, y: 0.111366026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb3508c2764cf448cbb2d0c433450d
+      internalID: -1341457574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muerte 5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 248
+        width: 24
+        height: 31
+      alignment: 9
+      pivot: {x: 0.506897, y: 0.12477555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf54fbc727d771044912b5776398679f
+      internalID: 1622932412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 209
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14a99e34f0f1ec48948cb0c938343ae
+      internalID: -826840508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 209
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402236f7fe3eee4cb613c973a7d4c5f
+      internalID: -1188878340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 208
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89196aeea7ec7a4a9fdd1a8c3a99cc2
+      internalID: 1984509394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 208
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7cd4b47c0c7c544b4be3f14876e22b
+      internalID: 2045971898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 209
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1ea1d58163661409c96c04afd510b3
+      internalID: -998056629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 208
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a7b0472013dbf4ab6e8852d798d1d2
+      internalID: 291471644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto 7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 208
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97832ba0b3dc225438e6af3075177229
+      internalID: 710241814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 161
+        width: 19
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68753552f41b234b87322f11e235a92
+      internalID: 287890815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 161
+        width: 19
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a543eb38ab5eb40878cdb438089666
+      internalID: -505146491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 161
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04615913bcfa3cd449f89827afb5b3f5
+      internalID: -360499163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 161
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b70097ed4dc594bac996415b75e6ed
+      internalID: -1838557582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 161
+        width: 19
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d51acf64de963428bd64e6afe10ff9
+      internalID: 44003605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aturdido 6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 161
+        width: 19
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55358b65177560a459bf1c85c131dd50
+      internalID: 1842207149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estatico 1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 161
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae635a6139a2b224f82bf397023849fe
+      internalID: 867323946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estatico 2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 161
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c644fb044c7de4cbec66cb0ad45b6b
+      internalID: 1855081864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estatico 3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 162
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47932e64e04f14e45ab42fbbfb5a3099
+      internalID: 704025252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o aturdidor 1"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 113
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eb9daffca4e0e429e91f174c3c093d
+      internalID: 275176967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o aturdidor 2"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 113
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d03a2582143c104189caa8a3d967507
+      internalID: -1236648362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o aturdidor 3"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 113
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64daacc2a788aee4c886654110796cd7
+      internalID: 1157411273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o aturdidor 4"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 113
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef040e2887e9d5448fb6650a2265268
+      internalID: -1484838325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o aturdidor 5"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 113
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a28a032f66add4db96b6124d5cc5f0
+      internalID: 2045518936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o 1"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 70
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8e49372394ea14c90c8f9e8e0dd9cd
+      internalID: 1970267607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o 2"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 70
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa4cd4a2c4b134492fe5eec5d2240c
+      internalID: -1132520914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o 3"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 70
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ed0b6b42caba14c8e00fcf437314bb
+      internalID: -547588984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o 4"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 70
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d9e1ca6d94fa43ad0497ea726d6b9
+      internalID: -2054251431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pu\xF1o 5"
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 70
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e3a1ded8854d49b55ed7d7c15d192
+      internalID: -1833689713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 26
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aa7e14fc9dd7d4992ebf3aa3716d02
+      internalID: 410954307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 26
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58892e8b5a8e6d246be76d288123a246
+      internalID: -1676174430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 25
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd18c5a585b6add45b2b158ab82c3483
+      internalID: 1118258419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 25
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61bddbe918ec0b4581ff937e480b69a
+      internalID: 342913905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 26
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a773229ebc017488fb33ac0c41cf69
+      internalID: -1390730277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 26
+        width: 18
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a92a03f52e2189499eeccb5ad695a93
+      internalID: 1409715687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar 7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 25
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74804dc18a76c243a397fa48b632060
+      internalID: -2098622099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dash: -1880252079
+      Frances_Animaciones_25: -1213293984
+      Aturdido 3: -505146491
+      Salto 1: 287890815
+      Frances_Animaciones_17: -997890276
+      "Pu\xF1o aturdidor 2": -1236648362
+      Frances_Animaciones_5: -1600782918
+      Frances_Animaciones_12: -231792806
+      Frances_Animaciones_26: 418795376
+      Frances_Animaciones_6: -578489198
+      Frances_Animaciones_27: -1171865439
+      Caminar 6: 1409715687
+      "Pu\xF1o aturdidor 1": 275176967
+      Salto 6: 291471644
+      Frances_Animaciones_10: -21584210
+      Frances_Animaciones_37: 784413002
+      Muerte 5: 1622932412
+      Aturdido 6: -1838557582
+      Ulti 4: 730227385
+      Aturdido 2: 44003605
+      Salto 4: 2045971898
+      Caminar 5: -1390730277
+      Aturdido 5: -826840508
+      Ulti 1: 1786560419
+      "Pu\xF1o aturdidor 5": 2045518936
+      Frances_Animaciones_21: 1438423447
+      Ulti 2: -128338250
+      Ulti 5: -1458764334
+      Frances_Animaciones_8: -1534486323
+      Muerte 1: 675187382
+      Muerte 4: -1341457574
+      "Pu\xF1o aturdidor 4": -1484838325
+      Frances_Animaciones_24: -343759367
+      Estatico 1: 867323946
+      Frances_Animaciones_7: 1297338014
+      Caminar 7: -2098622099
+      "Pu\xF1o 3": -547588984
+      Estatico 2: 1855081864
+      Frances_Animaciones_9: 492548565
+      Aturdido 4: 1842207149
+      Salto 2: -1188878340
+      Caminar 2: -1676174430
+      Caminar 1: 410954307
+      Frances_Animaciones_19: -2077590268
+      Salto 5: -998056629
+      Frances_Animaciones_16: 130660681
+      Caminar 4: 342913905
+      "Pu\xF1o 5": -1833689713
+      "Pu\xF1o aturdidor 3": 1157411273
+      Caminar 3: 1118258419
+      Aturdido 1: -360499163
+      Salto 7: 710241814
+      Ulti 3: 1655306338
+      "Pu\xF1o 4": -2054251431
+      Frances_Animaciones_36: 1585439457
+      Muerte 2: -237531861
+      "Pu\xF1o 1": 1970267607
+      Frances_Animaciones_22: 412136232
+      Muerte 3: -1641321867
+      Frances_Animaciones_39: -764114677
+      "Pu\xF1o 2": -1132520914
+      Salto 3: 1984509394
+      Frances_Animaciones_18: -1119816792
+      Estatico 3: 704025252
+      Frances_Animaciones_11: -1646646087
+      Frances_Animaciones_41: 1882513562
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

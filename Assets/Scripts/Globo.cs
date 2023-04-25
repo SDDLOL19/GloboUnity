@@ -28,7 +28,7 @@ public class Globo : MonoBehaviour
     {
         if (estadoGlobo == 1)
         {
-            spriteGlobo.color = new Vector4(1, 0.47f, 0.13f, 1);
+            spriteGlobo.color = new Vector4(1, 0.19f, 0.05f, 1);
         }
         else if (estadoGlobo == 2)
         {
@@ -103,32 +103,32 @@ public class Globo : MonoBehaviour
             Explode();
         }
 
-        if (estadoGlobo == 1)      //Si el jugador rojo golpea el globo rojo se vuelve azul y cambia su velocity
+        if (estadoGlobo == 2)      //Si el jugador rojo golpea el globo rojo se vuelve azul y cambia su velocity
         {
             if (collision.gameObject.tag == "Punch1")
             {
-                estadoGlobo = 2;
+                estadoGlobo = 1;
                 RecibirPunch((int)collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.x);
             }
 
             else if (collision.gameObject.tag == "Cabeza1" && collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.y >= 0)  //Si el jugador choca su cabeza con el globo y está subiendo el globo sube
             {
-                estadoGlobo = 2;
+                estadoGlobo = 1;
                 RecibirCabezazo();
             }
         }
 
-        else if (estadoGlobo == 2) //Si el jugador azul golpea el globo azul se vuelve rojo anaranjado y cambia su velocity
+        else if (estadoGlobo == 1) //Si el jugador azul golpea el globo azul se vuelve rojo anaranjado y cambia su velocity
         {
             if (collision.gameObject.tag == "Punch2")
             {
-                estadoGlobo = 1;
+                estadoGlobo = 2;
                 RecibirPunch((int)collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.x);
             }
 
             else if (collision.gameObject.tag == "Cabeza2" && collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.y >= 0)  //Si el jugador choca su cabeza con el globo y está subiendo el globo sube
             {
-                estadoGlobo = 1;
+                estadoGlobo = 2;
                 RecibirCabezazo();
             }
         }
@@ -137,28 +137,28 @@ public class Globo : MonoBehaviour
         {
             if (collision.gameObject.tag == "Punch1")
             {
-                estadoGlobo = 2;
+                estadoGlobo = 1;
                 ActivarFisicas();
                 RecibirPunch((int)collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.x);
             }
 
             else if (collision.gameObject.tag == "Punch2")
             {
-                estadoGlobo = 1;
+                estadoGlobo = 2;
                 ActivarFisicas();
                 RecibirPunch((int)collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.x);
             }
 
             else if (collision.gameObject.tag == "Cabeza1" && collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.y >= 0)  //Si el jugador choca su cabeza con el globo y está subiendo el globo sube
             {
-                estadoGlobo = 2;
+                estadoGlobo = 1;
                 ActivarFisicas();
                 RecibirCabezazo();
             }
 
             else if (collision.gameObject.tag == "Cabeza2" && collision.gameObject.GetComponentInParent<Rigidbody2D>().velocity.y >= 0)  //Si el jugador choca su cabeza con el globo y está subiendo el globo sube
             {
-                estadoGlobo = 1;
+                estadoGlobo = 2;
                 ActivarFisicas();
                 RecibirCabezazo();
             }

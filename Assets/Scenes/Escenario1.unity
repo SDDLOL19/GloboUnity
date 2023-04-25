@@ -628,6 +628,10 @@ PrefabInstance:
       propertyPath: textoEnergy
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6733275496856604323, guid: fbc857be7b0800c488d23528896002cb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 04b1784a61411a44f98200e337fc469f, type: 2}
     - target: {fileID: 6837909026884011711, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2540,6 +2544,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1595412723, guid: cdbd159f360c81d479d00c0a5334055d, type: 3}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Color.b
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Color.g
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7920699875555194205, guid: 5b724a6fba6756643bd1e8c87e434409, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
