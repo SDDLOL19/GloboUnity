@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject spawnPoint;
 
     public Rigidbody2D playerRigid;
-    Animator playerAnim;
+    public Animator playerAnim;
 
     public int cantidadSaltos;
     public float dashTime;
@@ -185,5 +185,4 @@ public class Player : MonoBehaviour
             DeathSystem();
         }
     }
-
 }

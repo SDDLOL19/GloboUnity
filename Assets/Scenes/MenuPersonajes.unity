@@ -539,16 +539,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spritesPersonajes:
-  - {fileID: -407204206, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
+  - {fileID: 1097169083, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
   - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
   - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
-  - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
-  - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
-  - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
-  - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
-  - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
-  - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
-  - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
+  - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   spritesJugadores:
   - {fileID: 1244542074}
   - {fileID: 916093254}
@@ -2736,6 +2730,10 @@ PrefabInstance:
     - target: {fileID: 4450132690637792853, guid: 35db8b3c928119b4586ad8f946641603, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858603793739386333, guid: 35db8b3c928119b4586ad8f946641603, type: 3}
+      propertyPath: spritesPersonajes.Array.size
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35db8b3c928119b4586ad8f946641603, type: 3}
