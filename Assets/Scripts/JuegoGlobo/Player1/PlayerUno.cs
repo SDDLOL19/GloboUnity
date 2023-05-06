@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class PlayerUno : Player      //Clase pplayer para que coja todo lo básico y poder cambiar los controles
+public class PlayerUno : Player      //Clase player para que coja todo lo básico y poder cambiar los controles
 {
     private void Awake()
     {
@@ -114,20 +114,16 @@ public class PlayerUno : Player      //Clase pplayer para que coja todo lo básic
         }
     }
 
+    void Ultimate()
+    {
+        if (Keyboard.current.sKey.wasPressedThisFrame)
+        {
+
+        }
+    }
+
     void ActivarColision()
     {
         GetComponent<Collider2D>().isTrigger = false;
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Platform")
-        {
-            if (Keyboard.current.sKey.wasPressedThisFrame)
-            {
-                GetComponent<Collider2D>().isTrigger = true;
-                Invoke("ActivarColision", 0.3f);
-            }
-        }
     }
 }

@@ -190,16 +190,16 @@ public class MenuPersonajes : MonoBehaviour
 
     void ColocarRebordesJugadorUno()
     {
-        rebordes[0].transform.position = posicionPersonajes[SpritesManager.personajeJugadorUno].transform.position;
+        rebordes[0].transform.position = new Vector3 (posicionPersonajes[SpritesManager.personajeJugadorUno].transform.position.x, posicionPersonajes[SpritesManager.personajeJugadorUno].transform.position.y, rebordes[0].transform.position.z);
     }
 
     void ColocarRebordesJugadorDos()
     {
-        rebordes[1].transform.position = posicionPersonajes[SpritesManager.personajeJugadorDos].transform.position;
+        rebordes[1].transform.position = new Vector3(posicionPersonajes[SpritesManager.personajeJugadorDos].transform.position.x, posicionPersonajes[SpritesManager.personajeJugadorDos].transform.position.y, rebordes[1].transform.position.z);
     }
 
     void ColocarRebordesFondo()
     {
-        rebordes[2].transform.position = posicionEscenarios[SpritesManager.fondoEscenario].transform.position;
+        rebordes[2].transform.position = new Vector3(posicionEscenarios[SpritesManager.fondoEscenario].transform.position.x, posicionEscenarios[SpritesManager.fondoEscenario].transform.position.y, rebordes[1].transform.position.z);
     }
 }
