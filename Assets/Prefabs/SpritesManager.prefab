@@ -44,3 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc5eb3a3d778f14c957be4c444f8a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  personajesAnimados:
+  - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
+  - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
+  - {fileID: 9100000, guid: 04b1784a61411a44f98200e337fc469f, type: 2}
+  - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}

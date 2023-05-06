@@ -6,13 +6,10 @@ using TMPro;
 
 public class PlayerUno : Player      //Clase pplayer para que coja todo lo básico y poder cambiar los controles
 {
-    public SpritesManager spriteManejador;
-    RuntimeAnimatorController[] personajesAnimados;
-
     private void Awake()
     {
         personajesAnimados = spriteManejador.personajesAnimados;
-        PonerSkinAddecuada();
+        PonerSkinAdecuada();
     }
 
     void Update()
@@ -31,7 +28,7 @@ public class PlayerUno : Player      //Clase pplayer para que coja todo lo básic
         EnergySystem();
     }
 
-    void PonerSkinAddecuada()
+    void PonerSkinAdecuada()
     {
         this.GetComponent<Animator>().runtimeAnimatorController = personajesAnimados[SpritesManager.personajeJugadorUno];
     }

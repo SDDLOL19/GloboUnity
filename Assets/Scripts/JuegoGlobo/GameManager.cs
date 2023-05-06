@@ -15,9 +15,13 @@ public class GameManager : MonoBehaviour
     public int puntosJugadorDos = 0;
     public float cronometro = 180;     //Tres minutos en segundos
 
+    [SerializeField] Canvas Pausa;
+    bool pausado = false;
+
     private void Awake()
     {
         Application.targetFrameRate = framerate;
+        Pausa.gameObject.SetActive(pausado);
     }
 
     void Update()
@@ -33,7 +37,8 @@ public class GameManager : MonoBehaviour
 
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            Application.Quit();
+            pausado = !pausado;
+            ComprobarPausa();
         }
     }
 
@@ -44,9 +49,53 @@ public class GameManager : MonoBehaviour
         textoCronometro.text = cronometro.ToString("0");
     }
 
+    void ComprobarPausa()
+    {
+        Pausa.gameObject.SetActive(pausado);
+
+        if (pausado)
+        {
+            Time.timeScale = 0;
+        }
+
+        else
+        {
+            Time.timeScale = 1;
+        }
+    }
+
+    void ReanudarTiempo()
+    {
+        Time.timeScale = 1;
+    }
+
+    public void Pausar()
+    {
+        pausado = true;
+        ComprobarPausa();
+    }
+
+    public void Reanudar()
+    {
+        pausado = false;
+        ComprobarPausa();
+    }
+
     void AcabarPartida()
     {
+        CargarMenuPrincipal();
+    }
+
+    public void CargarMenuPrincipal()
+    {
+        ReanudarTiempo();
         SceneManager.LoadScene(0);
+    }
+
+    public void CargarSeleccionarPersonaje()
+    {
+        ReanudarTiempo();
+        SceneManager.LoadScene(1);
     }
 
     public void SumarPuntos(int estadoGlobo)

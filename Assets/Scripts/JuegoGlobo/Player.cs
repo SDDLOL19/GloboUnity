@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public SpritesManager spriteManejador;
+    protected RuntimeAnimatorController[] personajesAnimados;
+
     public bool canJump;
     public bool canMove;
     public bool canDash;
