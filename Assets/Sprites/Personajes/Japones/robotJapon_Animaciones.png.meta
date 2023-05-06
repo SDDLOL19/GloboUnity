@@ -699,8 +699,8 @@ TextureImporter:
         y: 162
         width: 19
         height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5955385, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1153,13 +1153,13 @@ TextureImporter:
       robotJapon_Animaciones_8: -40279792
       robotJapon_Animaciones_32: 940211560
       Caminar 1: 886117140
-      Caminar 7: -1670566017
       "Pu\xF1o 3": -905443445
-      Estatico 2: -30794605
       Caida 1: -1341502666
+      Estatico 2: -30794605
       robotJapon_Animaciones_15: 391381108
       Salto 2: -1521372970
       Caminar 2: -59094813
+      Caminar 7: -1670566017
       robotJapon_Animaciones_19: 75971666
       robotJapon_Animaciones_6: 959033580
       "Pu\xF1oAturdir 1": -2125595631

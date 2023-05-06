@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spritesPersonajes:
-  - {fileID: 1097169083, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
+  - {fileID: 21300000, guid: 7eb1218fed92bd2419dfb0b6cd8703b7, type: 3}
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
   - {fileID: 867323946, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}

@@ -61,7 +61,11 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
             dashing = false;
             canDash = true;
             dashTime = 0;
-            EnergyWaste();
+
+            if (energyBar == 100)
+            {
+                EnergyWaste();
+            }
         }
     }
 
@@ -94,14 +98,12 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.right * speed * 2;
-                    Shadows.me.Sombras_skill();
                 }
 
                 else if (Keyboard.current.aKey.isPressed)
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.left * speed * 2;
-                    Shadows.me.Sombras_skill();
                 }
             }
 

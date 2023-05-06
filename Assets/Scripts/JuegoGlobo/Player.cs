@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     {
         canMove = true;
         canJump = true;
+        canDash = true;
         cantidadSaltos = 0;
         punchCollision.SetActive(false);   //Colision desactivada para evitar que reaccionen a ella al empezar
         playerRigid = GetComponent<Rigidbody2D>();

@@ -61,7 +61,11 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
             dashing = false;
             canDash = true;
             dashTime = 0;
-            EnergyWaste();
+
+            if (energyBar == 100)
+            {
+                EnergyWaste();
+            }     
         }
     }
 
@@ -94,14 +98,12 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.right * speed * 2;
-                    Shadows.me.Sombras_skill();
                 }
 
                 else if (Keyboard.current.leftArrowKey.isPressed)
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.left * speed * 2;
-                    Shadows.me.Sombras_skill();
                 }
             }
 

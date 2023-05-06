@@ -14,9 +14,13 @@ public class MenuPersonajes : MonoBehaviour
 
     private void Awake()
     {
-        SpritesManager.personajeJugadorUno = 0;
-        SpritesManager.personajeJugadorDos = 0;
-        SpritesManager.fondoEscenario = 0;
+        SpritesManager.personajeJugadorUno = 5;
+        SpritesManager.personajeJugadorDos = 5;
+        SpritesManager.fondoEscenario = 2;
+
+        ColocarRebordesJugadorUno();
+        ColocarRebordesJugadorDos();
+        ColocarRebordesFondo();
     }
 
     private void Start()
