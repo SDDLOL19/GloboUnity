@@ -8,6 +8,8 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
 {
     private void Awake()
     {
+        numeroPlayer = 1;
+        numeroEnemigo = 2;
         personajesAnimados = spriteManejador.personajesAnimados;
         PonerSkinAdecuada();
     }
@@ -22,6 +24,8 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
             {
                 NormalPunching();
             }
+
+            Ultimate();
         }
 
         AnimationSystem();
@@ -118,14 +122,10 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
 
     void Ultimate()
     {
-        if (Keyboard.current.sKey.wasPressedThisFrame)
+        if (Keyboard.current.sKey.wasPressedThisFrame && GameManager.ultimateEnergy[0] >= 5)
         {
-
+            this.gameObject.GetComponent<Ultimates>();
+            GameManager.ultimateEnergy[0] = 0;
         }
-    }
-
-    void ActivarColision()
-    {
-        GetComponent<Collider2D>().isTrigger = false;
     }
 }

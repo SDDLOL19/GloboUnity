@@ -18,6 +18,10 @@ public class Player : MonoBehaviour
     public Rigidbody2D playerRigid;
     public Animator playerAnim;
 
+    protected int numeroPlayer;
+    protected int numeroEnemigo;
+
+
     public int cantidadSaltos;
     public float dashTime;
     public float energyBar = 100;
@@ -100,7 +104,7 @@ public class Player : MonoBehaviour
         {
             playerAnim.Play("PuñoGlobo");
         }
-        
+
         punchCollision.SetActive(true);   //Activa la colision del puño
     }
 
@@ -116,6 +120,12 @@ public class Player : MonoBehaviour
         if (canMove == true)
         {
             canMove = false;
+
+            if (GameManager.ultimateEnergy[numeroEnemigo - 1] < 5)
+            {
+                GameManager.ultimateEnergy[numeroEnemigo - 1]++;
+            }
+            
             playerAnim.SetBool("stunted", true);
             playerAnim.Play("Stun");
             Invoke("Desaturdirse", 1);

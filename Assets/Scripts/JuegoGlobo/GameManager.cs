@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
     public int puntosJugadorDos = 0;
     public float cronometro = 180;     //Tres minutos en segundos
 
+    public static int[] ultimateEnergy = new int[] { 0, 0 };
+    public SpriteRenderer ultimate1;
+    public SpriteRenderer ultimate2;
+    public Sprite[] spritesUlti;
+
     [SerializeField] Canvas Pausa;
     bool pausado = false;
 
@@ -28,7 +33,7 @@ public class GameManager : MonoBehaviour
     {
         MostrarHud();
         cronometro -= Time.deltaTime;
-        cronometro = Mathf.Clamp(cronometro, 0, 180);      
+        cronometro = Mathf.Clamp(cronometro, 0, 180);
 
         if (cronometro <= 0)
         {
@@ -47,6 +52,9 @@ public class GameManager : MonoBehaviour
         textoPuntosJugadorUno.text = puntosJugadorUno.ToString("0"); //Para que no se muestren decimales en el hud
         textoPuntosJugadorDos.text = puntosJugadorDos.ToString("0");
         textoCronometro.text = cronometro.ToString("0");
+
+        ultimate1.sprite = spritesUlti[ultimateEnergy[0]];
+        ultimate2.sprite = spritesUlti[ultimateEnergy[1]];
     }
 
     void ComprobarPausa()

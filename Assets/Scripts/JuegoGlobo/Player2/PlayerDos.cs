@@ -8,6 +8,8 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
 {
     private void Awake()
     {
+        numeroPlayer = 2;
+        numeroEnemigo = 1;
         personajesAnimados = spriteManejador.personajesAnimados;
         PonerSkinAdecuada();
     }
@@ -22,6 +24,8 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
             {
                 NormalPunching();
             }
+
+            Ultimate();
         }
 
         AnimationSystem();
@@ -113,6 +117,15 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
                 canDash = false;
                 EnergyWaste();
             }
+        }
+    }
+
+    void Ultimate()
+    {
+        if (Keyboard.current.downArrowKey.wasPressedThisFrame && GameManager.ultimateEnergy[1] >= 5)
+        {
+            this.gameObject.GetComponent<Ultimates>();
+            GameManager.ultimateEnergy[0] = 0;
         }
     }
 }
