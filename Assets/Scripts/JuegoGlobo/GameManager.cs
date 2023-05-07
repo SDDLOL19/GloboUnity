@@ -100,12 +100,12 @@ public class GameManager : MonoBehaviour
 
     public void SumarPuntos(int estadoGlobo)
     {
-        if (estadoGlobo == 1)
+        if (estadoGlobo == 2)
         {
             puntosJugadorDos++;
         }
 
-        else if (estadoGlobo == 2)
+        else if (estadoGlobo == 1)
         {
             puntosJugadorUno++;
         }

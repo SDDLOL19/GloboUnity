@@ -155,6 +155,8 @@ public class Player : MonoBehaviour
     public void PlayerSpawn()
     {
         playerAnim.SetBool("dying", false);
+        dashing = false;
+        playerAnim.Play("Idle");
         playerRigid.gravityScale = 3;
         this.transform.position = spawnPoint.transform.position;
         Invoke("PermitirMovimiento", 1.0f);
