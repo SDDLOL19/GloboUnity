@@ -166,6 +166,7 @@ public class MenuPersonajes : MonoBehaviour
             ColocarRebordesJugadorDos();
             ActualizarPersonajes();
         }
+
     }
 
     void ControlesOpcionesFondo()

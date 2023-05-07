@@ -46,11 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   personajesAnimados:
   - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
+  - {fileID: 9100000, guid: 7238ea5020b66334ab1c781b372bd3ca, type: 2}
   - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
   - {fileID: 9100000, guid: 04b1784a61411a44f98200e337fc469f, type: 2}
-  - {fileID: 9100000, guid: 04b1784a61411a44f98200e337fc469f, type: 2}
-  - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
-  - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
+  - {fileID: 9100000, guid: 076af158002e62346b6858bb719896f9, type: 2}
+  - {fileID: 9100000, guid: ded910c0787c73c498df1d5c012c0c62, type: 2}
   - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
   - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
   - {fileID: 9100000, guid: d5bf4af71d7025b4ab4d273349b66f8d, type: 2}
