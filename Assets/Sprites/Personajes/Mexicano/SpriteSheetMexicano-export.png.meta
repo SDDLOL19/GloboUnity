@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7dbce7024f088e47848012d7c83697f
+guid: 510cd378ba580f14799515b49dfa80e6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,227 +100,281 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkBras1
+      name: SpriteSheetMexicano-export_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 179
-        width: 20
-        height: 34
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4568e529b6acc2d4da514917c8df9ef1
+      internalID: 14763642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 180
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5040018629ee4b9dad0d082cb127d
+      internalID: 546107118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 180
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c0474df81717a4599785ba4b5cd829
+      internalID: -1367168091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9404e7f1aa38b364e80c609b2661b88f
+      internalID: -1545438565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 180
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629dcd25e98a3074eb3ba0e89dfc374a
+      internalID: -535409809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac443db8b03cee240acc196a9925cf3c
+      internalID: -309140344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 180
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8693949dd071147a65a8ef1e4bcabb
+      internalID: 1577383780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329e254b194683e4dbf3c4030961e0d7
+      internalID: -480993257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35c83f10ad1ada41a39a362dfbf05bd
+      internalID: -1710810569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 178
+        width: 29
+        height: 33
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f5a25ec569c8ad429a7b5c174c91362
-      internalID: -255615195
+      spriteID: c1b980f8c2fa2344581306e54a419b15
+      internalID: -721078747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBras2
+      name: SpriteSheetMexicano-export_18
       rect:
         serializedVersion: 2
-        x: 23
-        y: 179
-        width: 20
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 329
+        y: 178
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d3f0c9d644e4849b956275403369ee
-      internalID: -1564526174
+      spriteID: d486e4c9fb90beb46be7627bab512bec
+      internalID: 1224653298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBras3
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 179
-        width: 20
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c0490264c8b2d4498248cfecf8ecbfb
-      internalID: -1788245363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkBras4
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 180
-        width: 20
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3a338fb19b6e024c8de3139162493b8
-      internalID: -1858871408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkBras5
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 179
-        width: 20
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 248cb98f0c1d90b4a914858d6f82652b
-      internalID: -525449378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkBras6
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 179
-        width: 20
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e675a9654bdd424b99d7428b1988702
-      internalID: -362187307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkBras7
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 179
-        width: 20
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6eb5fc84e70d1f45845ab92d06347cd
-      internalID: 1020048788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeadBras1
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 180
-        width: 20
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8831f4ed01fd8cd44a78449ca022b203
-      internalID: -150503418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeadBras2
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 180
-        width: 22
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfac850dd9e3f654096ea73f2409671f
-      internalID: 1977261142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeadBras5
+      name: SpriteSheetMexicano-export_20
       rect:
         serializedVersion: 2
         x: 359
         y: 178
-        width: 26
-        height: 31
+        width: 29
+        height: 33
       alignment: 9
-      pivot: {x: 0.5145886, y: 0.15679981}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a49b9c9c4440a174d94b84abfcea84d1
-      internalID: 1523164280
+      spriteID: 355f4196b0f650d42bb43d41b68323eb
+      internalID: 907534925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpBras1
+      name: SpriteSheetMexicano-export_21
       rect:
         serializedVersion: 2
         x: 1
-        y: 141
-        width: 21
-        height: 33
+        y: 143
+        width: 24
+        height: 27
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca02a1826597ff4fba9483aee9683db
-      internalID: -245462858
+      spriteID: ed9158140d887f746aa8911eefc9a5a1
+      internalID: 558641446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpBras2
+      name: SpriteSheetMexicano-export_22
       rect:
         serializedVersion: 2
-        x: 23
-        y: 141
-        width: 20
-        height: 33
+        x: 33
+        y: 143
+        width: 24
+        height: 27
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +403,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9cf537359f66924f8639379b8816ee8
-      internalID: -2071014558
+      spriteID: ede638bbce25a864b90d9baa87dc144d
+      internalID: -1467420131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpBras3
+      name: SpriteSheetMexicano-export_23
       rect:
         serializedVersion: 2
-        x: 45
-        y: 141
-        width: 20
-        height: 34
+        x: 65
+        y: 143
+        width: 24
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57a8d1cd5e5e574b9b76eb4c30ff654
-      internalID: -105007740
+      spriteID: 643f7b560aaf34348afad1b5ed7574f0
+      internalID: 356575032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpBras4
+      name: SpriteSheetMexicano-export_24
       rect:
         serializedVersion: 2
-        x: 67
-        y: 141
-        width: 20
-        height: 34
+        x: 98
+        y: 143
+        width: 24
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83ecb571f2533cc42a27abe40f7f11c1
-      internalID: 13308901
+      spriteID: 1229e628f52ce0444adbdfa0d823c80a
+      internalID: 63332891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallBras1
+      name: SpriteSheetMexicano-export_25
       rect:
         serializedVersion: 2
-        x: 89
-        y: 142
-        width: 20
-        height: 33
+        x: 130
+        y: 143
+        width: 24
+        height: 27
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +466,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e8c6964257eb3142b68ac4b307e40b1
-      internalID: 125221390
+      spriteID: 8854d8db042085e48a2b61359bac3705
+      internalID: -1738743271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallBras2
+      name: SpriteSheetMexicano-export_26
       rect:
         serializedVersion: 2
-        x: 111
-        y: 142
-        width: 20
-        height: 34
+        x: 162
+        y: 143
+        width: 24
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d205b8d81b062d4e903c4c1a47ac5ae
-      internalID: 818463040
+      spriteID: eaea1bdecc5b5574bb44d2e0fa779a9a
+      internalID: 594883834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FallBras3
+      name: SpriteSheetMexicano-export_27
       rect:
         serializedVersion: 2
-        x: 133
-        y: 142
-        width: 20
-        height: 34
+        x: 194
+        y: 143
+        width: 24
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,104 +508,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e86b9182cc75084ea8305da8727162a
-      internalID: -1297483704
+      spriteID: ca7fdf0fdbf56db4eac8674978226698
+      internalID: -1769497664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pu\xF1oStunBras1"
+      name: SpriteSheetMexicano-export_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 132
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be84c41e5d60c5c45b3a9dedd0c7c1cd
+      internalID: -1731054186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 132
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda06a20ac69da45abae813d04d6de6
+      internalID: -943520376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_30
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 132
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a7c191853d71479d6e2d62f9f5993
+      internalID: 239215994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_31
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 132
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.41, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cafb6308bb798548a4537fc96829cac
+      internalID: 624399062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 132
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ea3b281513e27489066ad3fce89ead
+      internalID: -1528520055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 24
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e1b671a19bc349be7b33587e0fb56
+      internalID: 766061443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 100
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f0c186ad5cd7a418e7549e00895c42
+      internalID: -1523227309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 100
+        width: 24
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c1c6623b4471c43b6343451c5bad66
+      internalID: -1765919284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_36
       rect:
         serializedVersion: 2
         x: 243
-        y: 132
-        width: 20
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcaecc32ada34b44388b543bae500f27
-      internalID: 906255360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oStunBras2"
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 132
-        width: 21
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d436529d9ee86c44a35ec9ccccc9e50
-      internalID: 41535585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oStunBras3"
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 132
-        width: 21
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e417545f77b623445ade76c2034d198e
-      internalID: -730538056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oStunBras4"
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 132
+        y: 83
         width: 24
-        height: 35
-      alignment: 9
-      pivot: {x: 0.35, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60c31c990b1a89644bebd0428b87a30f
-      internalID: -407204206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oStunBras5"
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 132
-        width: 21
-        height: 35
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,83 +697,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e465952fb1195a94b825a0ba64d30b23
-      internalID: 1819723356
+      spriteID: 4bda5e81f72bf7b4aa8df8b4bbb5aab4
+      internalID: -1455038454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleBras1
+      name: SpriteSheetMexicano-export_37
       rect:
         serializedVersion: 2
-        x: 1
-        y: 101
-        width: 20
-        height: 35
-      alignment: 9
-      pivot: {x: 0.6, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a00b749d9967b94daeb78273d616ba0
-      internalID: 1892693473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleBras2
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 101
-        width: 20
-        height: 36
-      alignment: 9
-      pivot: {x: 0.6, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2c63fac1bcc1c0458ca1f7a04e6d0fa
-      internalID: 1333234150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IdleBras3
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 101
-        width: 20
-        height: 35
-      alignment: 9
-      pivot: {x: 0.6, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c94f28e0edfd4dd42b446c6abe89b635
-      internalID: -363201229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oBras1"
-      rect:
-        serializedVersion: 2
-        x: 244
+        x: 269
         y: 83
-        width: 20
-        height: 35
+        width: 24
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,20 +718,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa4ff55d28429ee4f92e3a833eaf6c3a
-      internalID: -1624947376
+      spriteID: 7d6b6b03d3fffd7498274a73b43038b1
+      internalID: 26881824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pu\xF1oBras2"
+      name: SpriteSheetMexicano-export_38
       rect:
         serializedVersion: 2
-        x: 270
+        x: 296
         y: 83
-        width: 21
-        height: 35
+        width: 24
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,20 +739,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5eb413df967d2049a675533f57d619a
-      internalID: 1841896671
+      spriteID: 2187b1b04ef12b04780807ddc480f67a
+      internalID: 419717297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pu\xF1oBras3"
+      name: SpriteSheetMexicano-export_39
       rect:
         serializedVersion: 2
-        x: 297
+        x: 323
         y: 83
-        width: 20
-        height: 35
+        width: 24
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,62 +760,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51160d3e4142808479e7cae13dbda03d
-      internalID: 305012493
+      spriteID: dc440fde83f0f154cae2f3ca5b5d2dea
+      internalID: -1177627704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pu\xF1oBras4"
+      name: SpriteSheetMexicano-export_40
       rect:
         serializedVersion: 2
-        x: 325
+        x: 348
         y: 83
-        width: 22
-        height: 35
-      alignment: 9
-      pivot: {x: 0.4, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa41604104e5c0a4bbb5b916248777aa
-      internalID: -1134296434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pu\xF1oBras5"
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 83
-        width: 21
-        height: 35
-      alignment: 9
-      pivot: {x: 0.44, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42610dce4b21f474aa212a0de4f055c9
-      internalID: 1788052620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StunBras2
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 48
-        width: 20
-        height: 44
+        width: 24
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,83 +781,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bd83063b6c367d4186ef23f863a6420
-      internalID: -1849731899
+      spriteID: 277a92438a59be34ebcfb5f9053d6337
+      internalID: -1957173980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StunBras3
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 48
-        width: 20
-        height: 44
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88176ca95719fda4e8c946b2e409cee9
-      internalID: -1744785339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StunBras5
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 48
-        width: 20
-        height: 44
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9af234913fb509469981c698d463aaa
-      internalID: 1602614075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StunBras1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 48
-        width: 20
-        height: 44
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62dec13956319f34c917e273aff256c0
-      internalID: 222041229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StunBras4
+      name: SpriteSheetMexicano-export_43
       rect:
         serializedVersion: 2
         x: 67
         y: 48
-        width: 20
-        height: 44
+        width: 24
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,19 +802,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aa54188964de9c46bfa05400a94eb91
-      internalID: -1615893971
+      spriteID: 579f25ac74aa1fe40a60df923f8df9f7
+      internalID: 382089077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StunBras6
+      name: SpriteSheetMexicano-export_45
       rect:
         serializedVersion: 2
-        x: 111
+        x: 134
         y: 48
-        width: 20
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f054d474c68601340b177b0de6975dac
+      internalID: 1361546457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a087d6036b45df44a3ab5c089b97104
+      internalID: -400864780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf2609b438bca45a00fbc275886fe9
+      internalID: 447929677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 48
+        width: 24
         height: 44
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -853,83 +886,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d479c7fdf2d29d740bf2579c3899a711
-      internalID: 270465445
+      spriteID: bc57a826f5b0c684baf637a6a32e1adf
+      internalID: -851298555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UltiBras1
+      name: SpriteSheetMexicano-export_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 48
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837851bfd4c72c346b3d8712b982e682
+      internalID: -1885503136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetMexicano-export_51
       rect:
         serializedVersion: 2
         x: 240
         y: 36
-        width: 25
-        height: 34
+        width: 28
+        height: 28
       alignment: 9
-      pivot: {x: 0.6785144, y: 0.02916886}
+      pivot: {x: 0.65, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5764eb9c7bac59547a4e24fedd780632
-      internalID: 738420168
+      spriteID: 26d2bbd6381f65c4c996d331fe7f7220
+      internalID: -500112758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UltiBras2
+      name: SpriteSheetMexicano-export_52
       rect:
         serializedVersion: 2
         x: 278
         y: 36
-        width: 25
-        height: 34
+        width: 27
+        height: 28
       alignment: 9
-      pivot: {x: 0.6884302, y: 0.02916886}
+      pivot: {x: 0.67, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d523da0d1468841b9122e59c4d7875
-      internalID: 2049887972
+      spriteID: 60aa305f9c089774893aa50e2a249aa9
+      internalID: 103954373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UltiBras3
+      name: SpriteSheetMexicano-export_53
       rect:
         serializedVersion: 2
         x: 316
         y: 36
         width: 30
-        height: 34
+        height: 28
       alignment: 9
-      pivot: {x: 0.5743805, y: 0.03646099}
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120facc4723f86849bdba3ce4cda4194
-      internalID: 1097169083
+      spriteID: 071dcfe7538a58b48853d85f1b16a917
+      internalID: -1547177724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DashBras
+      name: SpriteSheetMexicano-export_54
       rect:
         serializedVersion: 2
         x: 2
         y: 5
-        width: 21
-        height: 35
+        width: 24
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,71 +991,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f713659d008244d439e21c5e9dab9908
-      internalID: 783600301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "SpriteSheetBrasile\xF1a_9"
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 179
-        width: 20
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4947b73d3fc2c94a90e83558daca21a
-      internalID: 1667910285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeadBras3
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 178
-        width: 25
-        height: 36
-      alignment: 9
-      pivot: {x: 0.5317993, y: 0.12384626}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e4302a1eefb29b42a71cd750b87cff6
-      internalID: -1007890464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeadBras4
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 178
-        width: 29
-        height: 33
-      alignment: 9
-      pivot: {x: 0.5269102, y: 0.12346256}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e48a6693d15ff34f8d314f539e16443
-      internalID: -110778857
+      spriteID: b9e6d432d83167043a930754062ecae4
+      internalID: -1749364075
       vertices: []
       indices: 
       edges: []
@@ -1017,62 +1008,61 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "SpriteSheetBrasile\xF1a_18": 610442926
-      "Pu\xF1oStunBras5": -407204206
-      "Pu\xF1oBras3": 1841896671
-      WalkBras7: -362187307
-      "Pu\xF1oStunBras1": 906255360
-      "Pu\xF1oStunBras3": 41535585
-      DeadBras1: -150503418
-      "Pu\xF1oBras5": -1134296434
-      "SpriteSheetBrasile\xF1a_19": 1410574612
-      FallBras3: 818463040
-      "SpriteSheetBrasile\xF1a_20": -1309906887
-      UltiBras3: 2049887972
-      "SpriteSheetBrasile\xF1a_46": 1386128489
-      WalkBras1: -255615195
-      IdleBras2: 1892693473
-      FallBras1: 125221390
-      "SpriteSheetBrasile\xF1a_12": 522248287
-      "Pu\xF1oStunBras2": 906255360
-      JumpBras3: -2071014558
-      JumpBras4: -105007740
-      StunBras3: -1849731899
-      DeadBras2: -150503418
-      "SpriteSheetBrasile\xF1a_42": 1995086301
-      WalkBras2: -255615195
-      IdleBras3: 1333234150
-      WalkBras3: -1564526174
-      DeadBras3: 1977261142
-      "Pu\xF1oStunBras4": -730538056
-      StunBras5: -1615893971
-      DashBras: 783600301
-      "SpriteSheetBrasile\xF1a_16": -327146186
-      UltiBras2: 738420168
-      "Pu\xF1oBras2": 1819723356
-      FallBras2: 125221390
-      StunBras2: 222041229
-      "SpriteSheetBrasile\xF1a_13": 1733400667
-      JumpBras2: -245462858
-      "SpriteSheetBrasile\xF1a_9": 1667910285
-      StunBras1: 222041229
-      "SpriteSheetBrasile\xF1a_48": -1094717289
-      IdleBras1: 1892693473
-      "SpriteSheetBrasile\xF1a_44": 340774238
-      WalkBras5: -1858871408
-      "SpriteSheetBrasile\xF1a_14": 109994160
-      WalkBras4: -1788245363
-      "Pu\xF1oBras1": -407204206
-      "SpriteSheetBrasile\xF1a_17": -1657525795
-      WalkBras6: -525449378
-      JumpBras1: -245462858
-      StunBras4: -1744785339
-      DeadBras4: -1007890464
-      StunBras6: 1602614075
-      UltiBras1: 738420168
-      "SpriteSheetBrasile\xF1a_15": 280736070
-      DeadBras5: -110778857
-      "Pu\xF1oBras4": 305012493
+      SpriteSheetMexicano-export_13: -726956793
+      SpriteSheetMexicano-export_27: -1769497664
+      SpriteSheetMexicano-export_18: 1224653298
+      SpriteSheetMexicano-export_49: -851298555
+      SpriteSheetMexicano-export_30: 239215994
+      SpriteSheetMexicano-export_28: -1731054186
+      SpriteSheetMexicano-export_22: -1467420131
+      SpriteSheetMexicano-export_10: -561641805
+      SpriteSheetMexicano-export_12: -543958261
+      SpriteSheetMexicano-export_45: 1361546457
+      SpriteSheetMexicano-export_20: 907534925
+      SpriteSheetMexicano-export_42: -751994484
+      SpriteSheetMexicano-export_52: 103954373
+      SpriteSheetMexicano-export_19: -1681193422
+      SpriteSheetMexicano-export_51: -500112758
+      SpriteSheetMexicano-export_21: 558641446
+      SpriteSheetMexicano-export_8: -1710810569
+      SpriteSheetMexicano-export_0: 14763642
+      SpriteSheetMexicano-export_14: -843717709
+      SpriteSheetMexicano-export_3: -1545438565
+      SpriteSheetMexicano-export_5: -309140344
+      SpriteSheetMexicano-export_41: 1049055904
+      SpriteSheetMexicano-export_24: 63332891
+      SpriteSheetMexicano-export_43: 382089077
+      SpriteSheetMexicano-export_54: -1749364075
+      SpriteSheetMexicano-export_33: 766061443
+      SpriteSheetMexicano-export_44: -313417800
+      SpriteSheetMexicano-export_46: -901399572
+      SpriteSheetMexicano-export_48: 447929677
+      SpriteSheetMexicano-export_31: 624399062
+      SpriteSheetMexicano-export_11: 1447246780
+      SpriteSheetMexicano-export_26: 594883834
+      SpriteSheetMexicano-export_40: -1957173980
+      SpriteSheetMexicano-export_25: -1738743271
+      SpriteSheetMexicano-export_35: -1765919284
+      SpriteSheetMexicano-export_47: -400864780
+      SpriteSheetMexicano-export_39: -1177627704
+      SpriteSheetMexicano-export_29: -943520376
+      SpriteSheetMexicano-export_23: 356575032
+      SpriteSheetMexicano-export_34: -1523227309
+      SpriteSheetMexicano-export_53: -1547177724
+      SpriteSheetMexicano-export_36: -1455038454
+      SpriteSheetMexicano-export_6: 1577383780
+      SpriteSheetMexicano-export_32: -1528520055
+      SpriteSheetMexicano-export_50: -1885503136
+      SpriteSheetMexicano-export_37: 26881824
+      SpriteSheetMexicano-export_16: 1940326745
+      SpriteSheetMexicano-export_38: 419717297
+      SpriteSheetMexicano-export_4: -535409809
+      SpriteSheetMexicano-export_9: 334565735
+      SpriteSheetMexicano-export_1: 546107118
+      SpriteSheetMexicano-export_17: -1480160684
+      SpriteSheetMexicano-export_15: -721078747
+      SpriteSheetMexicano-export_7: -480993257
+      SpriteSheetMexicano-export_2: -1367168091
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
