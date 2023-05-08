@@ -632,7 +632,7 @@ MonoBehaviour:
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   - {fileID: 92783753, guid: 9b69f49dd0359f6469d30e43d5d4e6d0, type: 3}
-  - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
+  - {fileID: 1111696754, guid: 7327575f55d0bdb4ebc0acd188a051d7, type: 3}
   spritesJugadores:
   - {fileID: 1244542074}
   - {fileID: 916093254}
