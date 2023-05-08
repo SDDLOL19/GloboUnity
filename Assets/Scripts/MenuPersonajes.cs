@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class MenuPersonajes : MonoBehaviour
@@ -34,7 +33,7 @@ public class MenuPersonajes : MonoBehaviour
         ControlesOpcionesFondo();        
         EmpezarPartida();
 
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Escape)) // Keyboard.current.escapeKey.wasPressedThisFrame
         {
             SceneManager.LoadScene(0);
         }
@@ -50,7 +49,7 @@ public class MenuPersonajes : MonoBehaviour
     {
         if (SpritesManager.personajeJugadorUno != 0 && SpritesManager.personajeJugadorDos != 0 && SpritesManager.fondoEscenario != 0)
         {
-            if (Keyboard.current.enterKey.wasPressedThisFrame)
+            if (Input.GetKeyDown(KeyCode.KeypadEnter)) //Keyboard.current.enterKey.wasPressedThisFrame
             {
                 SceneManager.LoadScene(2);
             }
@@ -102,7 +101,7 @@ public class MenuPersonajes : MonoBehaviour
     void ControlesOpcionesPersonajes()
     {
         //Controles jugador 1
-        if (Keyboard.current.wKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Arriba[0])) //Keyboard.current.wKey.wasPressedThisFrame
         {
             SpritesManager.personajeJugadorUno -= 3;
             LimitarVariablesJugadorUno();
@@ -110,7 +109,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.sKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Ulti[0])) //Keyboard.current.sKey.wasPressedThisFrame
         {
             SpritesManager.personajeJugadorUno += 3;
             LimitarVariablesJugadorUno();
@@ -118,7 +117,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.aKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Izquierda[0])) //Keyboard.current.aKey.wasPressedThisFrame
         {
             SpritesManager.personajeJugadorUno--;
             LimitarVariablesJugadorUno();
@@ -126,7 +125,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.dKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Derecha[0]))
         {
             SpritesManager.personajeJugadorUno++;
             LimitarVariablesJugadorUno();
@@ -135,7 +134,7 @@ public class MenuPersonajes : MonoBehaviour
         }
 
         //Controles jugador 2
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Arriba[1]))
         {
             SpritesManager.personajeJugadorDos -= 3;
             LimitarVariablesJugadorDos();
@@ -143,7 +142,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Ulti[1]))
         {
             SpritesManager.personajeJugadorDos += 3;
             LimitarVariablesJugadorDos();
@@ -151,7 +150,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Izquierda[1]))
         {
             SpritesManager.personajeJugadorDos--;
             LimitarVariablesJugadorDos();
@@ -159,7 +158,7 @@ public class MenuPersonajes : MonoBehaviour
             ActualizarPersonajes();
         }
 
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Derecha[1]))
         {
             SpritesManager.personajeJugadorDos++;
             LimitarVariablesJugadorDos();
@@ -171,21 +170,21 @@ public class MenuPersonajes : MonoBehaviour
 
     void ControlesOpcionesFondo()
     {
-        if (Keyboard.current.digit1Key.wasPressedThisFrame || Keyboard.current.numpad1Key.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
             SpritesManager.fondoEscenario = 1;
             LimitarVariablesFondo();
             ColocarRebordesFondo();
         }
 
-        if (Keyboard.current.digit2Key.wasPressedThisFrame || Keyboard.current.numpad2Key.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
         {
             SpritesManager.fondoEscenario = 2;
             LimitarVariablesFondo();
             ColocarRebordesFondo();
         }
 
-        if (Keyboard.current.digit3Key.wasPressedThisFrame || Keyboard.current.numpad3Key.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
         {
             SpritesManager.fondoEscenario = 3;
             LimitarVariablesFondo();

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using TMPro;
 
 public class PlayerDos : Player      //Clase pplayer para que coja todo lo básico y poder cambiar los controles
@@ -23,7 +22,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
         {
             MovementSystem();
 
-            if (Keyboard.current.kKey.wasPressedThisFrame)
+            if (Input.GetKeyDown(InputStuff.Golpe[1]))
             {
                 NormalPunching();
             }
@@ -44,7 +43,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
     {
         MovimientoLateral();
 
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(InputStuff.Arriba[1]))
         {
             if (canJump && cantidadSaltos == 0)
             {
@@ -58,12 +57,12 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
             }
         }
 
-        if (Keyboard.current.lKey.isPressed)
+        if (Input.GetKey(InputStuff.Dash[1]))
         {
             DashMove();
         }
 
-        if (Keyboard.current.lKey.wasReleasedThisFrame)
+        if (Input.GetKeyUp(InputStuff.Dash[1]))
         {
             dashing = false;
             canDash = true;
@@ -80,13 +79,13 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
     {
         playerRigid.velocity = new Vector2(0, playerRigid.velocity.y);
 
-        if (Keyboard.current.leftArrowKey.isPressed)
+        if (Input.GetKey(InputStuff.Izquierda[1]))
         {
             playerRigid.velocity = new Vector2(-speed, playerRigid.velocity.y);
             this.transform.localScale = new Vector3(-1, 1, 1); //para dar la vuelta al personaje y todos sus aspectos
         }
 
-        if (Keyboard.current.rightArrowKey.isPressed)
+        if (Input.GetKey(InputStuff.Derecha[1]))
         {
             playerRigid.velocity = new Vector2(speed, playerRigid.velocity.y);
             this.transform.localScale = new Vector3(1, 1, 1);
@@ -101,13 +100,13 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
 
             if (dashTime < 0.35f)
             {
-                if (Keyboard.current.rightArrowKey.isPressed)
+                if (Input.GetKey(InputStuff.Derecha[1]))
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.right * speed * 2;
                 }
 
-                else if (Keyboard.current.leftArrowKey.isPressed)
+                else if (Input.GetKey(InputStuff.Izquierda[1]))
                 {
                     dashing = true;
                     playerRigid.velocity = Vector2.left * speed * 2;
@@ -125,7 +124,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
 
     void Ultimate()
     {
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame && GameManager.ultimateEnergy[1] >= 5)
+        if (Input.GetKeyDown(InputStuff.Ulti[1]) && GameManager.ultimateEnergy[1] >= 5)
         {
             GameManager.ultimateEnergy[0] = 0;
             playerAnim.Play("Ultimate");

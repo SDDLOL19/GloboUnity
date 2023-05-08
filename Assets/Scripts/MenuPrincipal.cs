@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
 
 public class MenuPrincipal : MonoBehaviour
 {
@@ -12,7 +11,7 @@ public class MenuPrincipal : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Escape))//Keyboard.current.escapeKey.wasPressedThisFrame
         {
             QuitarControles();
         }
