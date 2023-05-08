@@ -15,12 +15,17 @@ public class GameManager : MonoBehaviour
     public int puntosJugadorDos = 0;
     public float cronometro = 180;     //Tres minutos en segundos
 
+    bool partidaAcabada = false;
+
     public static int[] ultimateEnergy = new int[] { 0, 0 };
     public SpriteRenderer ultimate1;
     public SpriteRenderer ultimate2;
     public Sprite[] spritesUlti;
 
     [SerializeField] Canvas Pausa;
+    [SerializeField] Canvas GanadorUno;
+    [SerializeField] Canvas GanadorDos;
+    [SerializeField] Canvas Empate;
     bool pausado = false;
 
     private void Awake()
@@ -40,7 +45,7 @@ public class GameManager : MonoBehaviour
             AcabarPartida();
         }
 
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame && !partidaAcabada)
         {
             pausado = !pausado;
             ComprobarPausa();
@@ -91,7 +96,24 @@ public class GameManager : MonoBehaviour
 
     void AcabarPartida()
     {
-        CargarMenuPrincipal();
+        partidaAcabada = true;
+
+        if (puntosJugadorUno > puntosJugadorDos)
+        {
+            GanadorUno.gameObject.SetActive(true);
+        }
+
+        else if (puntosJugadorDos > puntosJugadorUno)
+        {
+            GanadorDos.gameObject.SetActive(true);
+        }
+
+        else
+        {
+            Empate.gameObject.SetActive(true);
+        }
+
+        Invoke("CargarMenuPrincipal", 3);
     }
 
     public void CargarMenuPrincipal()

@@ -8,7 +8,7 @@ public class PantallaCarga : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("CargarJuego", 5);
+        Invoke("CargarJuego", 3);
     }
 
     void CargarJuego()
