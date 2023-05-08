@@ -137,6 +137,11 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
         if (collision.gameObject.tag == "Ultimate2")
         {
             DeathSystem();
+
+        }
+        if (collision.gameObject.tag == "DeathZone")
+        {
+            DeathSystem();
         }
     }
 }

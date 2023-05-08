@@ -138,5 +138,10 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
         {
             DeathSystem();
         }
+
+        if (collision.gameObject.tag == "DeathZone")
+        {
+            DeathSystem();
+        }
     }
 }
