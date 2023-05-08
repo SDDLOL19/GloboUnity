@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ae7644f5d5d4b1479508e443aca31aa
+guid: 9b69f49dd0359f6469d30e43d5d4e6d0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,17 +100,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ArgentCam1
+      name: Cam1
       rect:
         serializedVersion: 2
         x: 5
         y: 179
         width: 17
-        height: 26
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e024dd4b8800b4e8b92719ab4d8553
-      internalID: -1281893820
+      spriteID: 185d73e5cfdd5a34794385d72951004d
+      internalID: -1956614224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentCam2
+      name: Cam2
       rect:
         serializedVersion: 2
         x: 27
         y: 179
         width: 17
-        height: 26
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,203 +151,203 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c20b957f0bdca844aa6470d3ae6381e3
-      internalID: -34913068
+      spriteID: 381f20e175f46a345837c6f553e70d98
+      internalID: -583094524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentCam3
+      name: Cam3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 47
         y: 179
-        width: 17
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23820b22e76e9c041a6ee6d57a648921
-      internalID: -1626047962
+      spriteID: 8d7cc598575d27646a9ba697839b9270
+      internalID: 2089866107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentCam4
+      name: Cam4
       rect:
         serializedVersion: 2
-        x: 71
+        x: 69
         y: 180
-        width: 17
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 19
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1785377500041f548a9de04302d1e43e
-      internalID: -1957751075
+      spriteID: e7bfd0c8c9fc21e489f76496c8b54102
+      internalID: -21503058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentCam5
+      name: Cam5
       rect:
         serializedVersion: 2
-        x: 92
+        x: 90
+        y: 179
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bdf7bf4d47a7042b44435ea61c896a
+      internalID: -331028155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cam6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 179
+        width: 19
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35bd5dca9ea8c34181aace395cbb906
+      internalID: 54376119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cam7
+      rect:
+        serializedVersion: 2
+        x: 136
         y: 179
         width: 18
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 31
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e59be2bb06eb06d43bacd005e204c707
-      internalID: 2040405399
+      spriteID: 7f90266bd4cbff94f904feaed601e848
+      internalID: 1240059440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentCam6
+      name: muerte1
       rect:
         serializedVersion: 2
-        x: 115
-        y: 179
-        width: 17
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db22eea0ba0952e41a693111817215b9
-      internalID: -816991945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgentCam7
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 179
-        width: 17
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 776724f7c28672341ab054253bad87e1
-      internalID: 971679777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgenMuer1
-      rect:
-        serializedVersion: 2
-        x: 244
+        x: 242
         y: 180
-        width: 17
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d9388a8aebb4a4c836ed867968aa39
-      internalID: -714014923
+      spriteID: 053f1d9b6912085478555c8c0c5d8eec
+      internalID: 2002131189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenMuer2
+      name: muerte2
       rect:
         serializedVersion: 2
-        x: 273
+        x: 271
         y: 180
-        width: 22
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdce75564a87cf343bff2589adf1bf52
-      internalID: 93544070
+      spriteID: dd40e7435ebe73b40aa977daba555337
+      internalID: 1205611063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenMuer3
+      name: muerte3
       rect:
         serializedVersion: 2
         x: 300
-        y: 176
-        width: 27
-        height: 35
+        y: 177
+        width: 26
+        height: 34
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.56, y: 0.089}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c956cc1e9af6c2641a9b4e6caf78e99e
-      internalID: 247813850
+      spriteID: 488535b304090a24580a854d6f49355f
+      internalID: -2028734949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenMuer4
+      name: muerte4
       rect:
         serializedVersion: 2
-        x: 330
-        y: 177
-        width: 27
-        height: 33
+        x: 331
+        y: 178
+        width: 26
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.56, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53516512587c58945b5f80abc8372c5d
-      internalID: -18868911
+      spriteID: 3639c2e3bdbb3a54bb77e5bc053a8cff
+      internalID: -857848069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenMuer5
+      name: muerte5
       rect:
         serializedVersion: 2
         x: 362
@@ -343,383 +355,383 @@ TextureImporter:
         width: 26
         height: 31
       alignment: 9
-      pivot: {x: 0.5, y: 0.1}
+      pivot: {x: 0.56, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c33f792bce40394468e989d0eeff7206
-      internalID: -1994601920
+      spriteID: 27b2d236d14779543b0ec6cc85178baf
+      internalID: -1189426272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto1
+      name: salto1
       rect:
         serializedVersion: 2
-        x: 3
+        x: 1
         y: 141
-        width: 19
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6920234a7977fd4d86fc8af9ae41e9c
-      internalID: -88558386
+      spriteID: d298faa38212fed45913dd56646ba73c
+      internalID: -553645474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto2
+      name: salto2
       rect:
         serializedVersion: 2
-        x: 25
+        x: 23
         y: 141
-        width: 19
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c895d8a173886d4fb0b353b0e5c5ba6
-      internalID: -1383696890
+      spriteID: 48cf66880af3ee142b256d3339731908
+      internalID: 1564865965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto3
+      name: salto3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 47
         y: 141
-        width: 17
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65a1e22df198f2d4e8a2ba7ea7521e1a
-      internalID: -195738979
+      spriteID: 0b470dcdcdd9f754680997044e601afb
+      internalID: 206934934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto4
+      name: salto4
       rect:
         serializedVersion: 2
-        x: 72
+        x: 70
         y: 141
-        width: 17
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0a5d20622a3c4046b7ab897523de4b5
-      internalID: -1775001169
+      spriteID: 26f54eb6c41a5ca4eb3749d5f0eb94cc
+      internalID: 1386325647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto5
+      name: salto5
       rect:
         serializedVersion: 2
-        x: 95
+        x: 93
         y: 142
-        width: 17
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937b7172e03982644b336a028b451549
-      internalID: -2135248985
+      spriteID: ff9739f72a950084d853d3c91c222036
+      internalID: 1496594833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto6
+      name: salto6
       rect:
         serializedVersion: 2
-        x: 118
+        x: 116
         y: 142
-        width: 18
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7135100557829294d903e48ded618522
-      internalID: -1582978239
+      spriteID: e6b59de669a07d546ad3ba07608efcc9
+      internalID: -300975256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgentinoSalto7
+      name: salto7
       rect:
         serializedVersion: 2
-        x: 141
+        x: 139
         y: 142
-        width: 18
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b0df014bd1009c4b9a16fda5716af98
-      internalID: -334836884
+      spriteID: 5cf4c87948a4e6d4f9aa76f44774c9a9
+      internalID: -641733710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1oStun1"
+      name: "pu\xF1eta1"
       rect:
         serializedVersion: 2
         x: 243
         y: 132
-        width: 19
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 18
+        height: 30
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7ff4604e9dd384e889c3bbd0599f81
-      internalID: 2127976485
+      spriteID: 90d38f8bce792d049b910a8920993603
+      internalID: 1052322638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1oStun2"
+      name: "pu\xF1eta2"
       rect:
         serializedVersion: 2
         x: 273
         y: 132
         width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4973d2d19e23584b8662b77ef33d4d7
-      internalID: -1368683241
+      spriteID: a701c59fd41167f4c82c6684ec27ab7d
+      internalID: -1024525251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1oStun3"
+      name: "pu\xF1eta3"
       rect:
         serializedVersion: 2
         x: 307
         y: 132
         width: 18
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9309a0229cd4aa47b9606bcdee530b0
-      internalID: 1717963295
+      spriteID: efc7e7926486365449125ae37f78f68b
+      internalID: -1852768045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1oStun4"
+      name: "pu\xF1eta4"
       rect:
         serializedVersion: 2
         x: 338
         y: 132
         width: 23
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.36, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a00100ae313f8a4988b1e0998c8096c
-      internalID: 1630794726
+      spriteID: 1ac59c625f90b974d93deb7066ad68ed
+      internalID: -1957866425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1oStun5"
+      name: "pu\xF1eta5"
       rect:
         serializedVersion: 2
         x: 369
         y: 132
         width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.39, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 181545b586834954b9f2aa25915a58db
-      internalID: 75345643
+      spriteID: 5dc79f6eb9034564582d802b90b49539
+      internalID: 548662930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenIdle1
+      name: idle1
       rect:
         serializedVersion: 2
-        x: 4
+        x: 2
         y: 101
-        width: 17
-        height: 26
+        width: 19
+        height: 29
       alignment: 9
-      pivot: {x: 0.53, y: 0}
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4de9db0bf5f8a2945b2674b1679a3cdf
-      internalID: 706024596
+      spriteID: 0c6ca3de66a555640b51808efcfa1aac
+      internalID: 92783753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenIdle2
+      name: idle2
       rect:
         serializedVersion: 2
-        x: 26
+        x: 24
         y: 101
-        width: 17
-        height: 28
+        width: 19
+        height: 31
       alignment: 9
-      pivot: {x: 0.53, y: 0}
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b56877496bf1de4ea62c56566103680
-      internalID: 525596100
+      spriteID: 5109b431410d3c34199eb3c527244ccc
+      internalID: 800743394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenIdle3
+      name: idle3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 46
         y: 101
-        width: 17
-        height: 26
+        width: 19
+        height: 29
       alignment: 9
-      pivot: {x: 0.53, y: 0}
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1a49a4d352b6c9458f6935db441a096
-      internalID: -872645584
+      spriteID: 83b3cac74ef6e6349a2b5933b50c303e
+      internalID: -1328473926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1o1"
+      name: globo1
       rect:
         serializedVersion: 2
         x: 246
         y: 83
-        width: 19
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 18
+        height: 30
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24920e0f1a92394dadb497b1587d873
-      internalID: 639016198
+      spriteID: 2bb259ac258bca14e989d99101c42c77
+      internalID: -1117815874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1o2"
+      name: globo2
       rect:
         serializedVersion: 2
         x: 273
         y: 83
         width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee3979084a376ba47a47b92abfe037e8
-      internalID: -1358272078
+      spriteID: 548dd650cc404fc479af8ffb6432a972
+      internalID: 1154350624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1o3"
+      name: globo3
       rect:
         serializedVersion: 2
         x: 304
         y: 83
-        width: 18
-        height: 27
+        width: 17
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,101 +739,101 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 812eddbed57506d4abc7034a2434dd21
-      internalID: -1693990243
+      spriteID: 1b6d3eaea43a3fc409438652c270fa41
+      internalID: -1432212301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1o4"
+      name: globo4
       rect:
         serializedVersion: 2
         x: 332
         y: 83
         width: 21
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.38, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997b0c7a2d14ca24a8da6385a8723712
-      internalID: -1278340057
+      spriteID: 339191df87e24d64c935adc69387b128
+      internalID: 2065459466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ArgenPu\xF1o5"
+      name: globo5
       rect:
         serializedVersion: 2
         x: 360
         y: 83
         width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e059dd54eade7c43a286293b5be8b2b
-      internalID: -1925369034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgenStun3
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 47
-        width: 17
-        height: 37
+        height: 30
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.41, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6651d30fbb93b7448c89ec425617b7c
-      internalID: 174714138
+      spriteID: beb1f31eec2db5845a322d89a19f12f7
+      internalID: -1230504846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenStun5
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 47
-        width: 17
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 303ec2cbf4ea052459122d758210fcc8
-      internalID: -374774767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgenStun1
+      name: Stun1
       rect:
         serializedVersion: 2
         x: 4
+        y: 47
+        width: 19
+        height: 34
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985149f2120902544837b877e2673fb7
+      internalID: -313761810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 47
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f8c69467718554a8941e9bca684750
+      internalID: -77201850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun3
+      rect:
+        serializedVersion: 2
+        x: 48
         y: 47
         width: 19
         height: 37
@@ -832,218 +844,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac48afe95c44c94eb06583e70e16136
-      internalID: -812492655
+      spriteID: 710db558ffbf1f8459ca1fa577bdbe21
+      internalID: 1042663786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenStun2
+      name: Stun5
       rect:
         serializedVersion: 2
-        x: 28
+        x: 92
         y: 47
-        width: 17
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4bb7708ad537b143b22a3a880f930e1
-      internalID: 400286428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgenStun4
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 47
-        width: 18
-        height: 39
-      alignment: 9
-      pivot: {x: 0.52, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 315288979ee10ef4ea34fec01a4c11b1
-      internalID: 1543726633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgenStun6
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 47
-        width: 17
+        width: 19
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c8d989c76acca441bba1debbc0b1029
-      internalID: 694501592
+      spriteID: 2fb396a73e8a0c441b039812cdb57bd0
+      internalID: -215838328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgeUlti1
+      name: Stun4
       rect:
         serializedVersion: 2
-        x: 243
-        y: 36
+        x: 70
+        y: 47
         width: 19
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 38
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8745bd124ed3cf64ea741e22c23637a4
-      internalID: -728868138
+      spriteID: 3bdb608a044452d4dad54bc8c2ba5728
+      internalID: -1249651166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgeUlti2
+      name: Stun6
       rect:
         serializedVersion: 2
-        x: 268
-        y: 36
-        width: 20
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f4f3ca198b555240b2abb2942ff0e5b
-      internalID: 1368139739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArgeUlti3
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 36
+        x: 114
+        y: 47
         width: 19
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2d1c650dbbf4246b48a93c94ecd834
-      internalID: -1244450492
+      spriteID: d9d9e1d90b916634197d8aa799df35cc
+      internalID: 261412685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgeUlti4
+      name: ulti1
       rect:
         serializedVersion: 2
-        x: 316
+        x: 239
         y: 36
-        width: 21
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b381831610daa4dab850c93aab2df7
-      internalID: 1701374709
+      spriteID: c297cf21f4ac2924186a449dbedbeb6a
+      internalID: 1191519029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgeUlti5
+      name: ulti2
       rect:
         serializedVersion: 2
-        x: 341
+        x: 277
         y: 36
-        width: 21
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 26
+        height: 28
+      alignment: 9
+      pivot: {x: 0.67, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd68a35cf367d34187c20258311b214
-      internalID: -138199426
+      spriteID: 998f3f7d1aab0884bbbce51dfadaa9f0
+      internalID: 830584396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgeUlti6
+      name: ulti3
       rect:
         serializedVersion: 2
-        x: 366
+        x: 315
         y: 36
-        width: 20
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 30
+        height: 28
+      alignment: 9
+      pivot: {x: 0.58, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad8680e2fc4bc24fa500bbb9ce7fb38
-      internalID: -820757499
+      spriteID: 9a13933afa1d72f46808720f9da721c5
+      internalID: 1245071037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArgenDash
+      name: dash
       rect:
         serializedVersion: 2
-        x: 4
+        x: 1
         y: 4
-        width: 19
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106f4d3c9bc85f248872005b73ca2a4a
-      internalID: 568059915
+      spriteID: 3b7410e4e4ca737438348e858d9dcdff
+      internalID: 1731863958
       vertices: []
       indices: 
       edges: []
@@ -1059,65 +1008,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ArgenStun4: 1543726633
-      "ArgenPu\xF1o5": -1925369034
-      "ArgenPu\xF1oStun1": 2127976485
-      ArgentinoSalto4: -1775001169
-      ArgentCam2: -34913068
-      ArgenMuer4: -18868911
-      "ArgenPu\xF1o1": 639016198
-      "ArgenPu\xF1oStun5": 75345643
-      ArgentCam1: -1281893820
-      SpriteSheetArgentino_17: -47039774
-      ArgeUlti5: -138199426
-      "ArgenPu\xF1o4": -1278340057
-      ArgenIdle1: 706024596
-      ArgentinoSalto3: -195738979
-      ArgeUlti2: 1368139739
-      ArgentinoSalto1: -88558386
-      ArgentCam3: -1626047962
-      ArgentinoSalto5: -2135248985
-      ArgenStun3: 174714138
-      ArgenIdle2: 525596100
-      ArgeUlti4: 1701374709
-      "ArgenPu\xF1o2": -1358272078
-      ArgeUlti6: -820757499
-      ArgentinoSalto2: -1383696890
-      SpriteSheetArgentino_9: -1903137273
-      ArgenDash: 568059915
-      "ArgenPu\xF1oStun2": -1368683241
-      SpriteSheetArgentino_14: -221392068
-      SpriteSheetArgentino_20: -1713520905
-      ArgentCam7: 971679777
-      SpriteSheetArgentino_45: -1138805183
-      ArgenMuer1: -714014923
-      ArgentinoSalto7: -334836884
-      SpriteSheetArgentino_12: 825730912
-      SpriteSheetArgentino_43: -1644376829
-      ArgentCam6: -816991945
-      ArgentinoSalto6: -1582978239
-      ArgentCam4: -1957751075
-      SpriteSheetArgentino_16: -2099087585
-      ArgenStun1: -812492655
-      "ArgenPu\xF1o3": -1693990243
-      ArgeUlti1: -728868138
-      ArgenMuer5: -1994601920
-      SpriteSheetArgentino_18: -793130070
-      ArgenMuer2: 93544070
-      ArgenStun2: 400286428
-      ArgenIdle3: -872645584
-      SpriteSheetArgentino_42: -1904114152
-      SpriteSheetArgentino_47: -1587292798
-      ArgenStun5: -374774767
-      ArgeUlti3: -1244450492
-      SpriteSheetArgentino_15: -1357698840
-      ArgentCam5: 2040405399
-      ArgenStun6: 694501592
-      "ArgenPu\xF1oStun3": 1717963295
-      "ArgenPu\xF1oStun4": 1630794726
-      SpriteSheetArgentino_10: -961620959
-      SpriteSheetArgentino_11: 1217182526
-      ArgenMuer3: 247813850
+      Cam1: -1956614224
+      Stun2: -77201850
+      SpriteSheetIngles_14: 558739880
+      muerte5: -1189426272
+      salto6: -300975256
+      Cam7: 1240059440
+      muerte3: -2028734949
+      Cam3: 2089866107
+      Cam6: 54376119
+      SpriteSheetIngles_12: -829807376
+      salto4: 1386325647
+      idle1: 92783753
+      SpriteSheetIngles_17: 855557313
+      idle2: 800743394
+      salto3: 206934934
+      salto7: -641733710
+      SpriteSheetIngles_18: -510980662
+      salto5: 1496594833
+      Stun5: -215838328
+      Stun1: -313761810
+      "pu\xF1eta3": -1852768045
+      muerte4: -857848069
+      "pu\xF1eta5": 548662930
+      SpriteSheetIngles_16: 355817534
+      Cam5: -331028155
+      SpriteSheetIngles_11: -549500749
+      dash: 1731863958
+      globo3: -1432212301
+      Stun3: 1042663786
+      Cam4: -21503058
+      salto2: 1564865965
+      SpriteSheetIngles_45: -766601245
+      Cam2: -583094524
+      salto1: -553645474
+      Stun4: -1249651166
+      SpriteSheetIngles_9: -1033902131
+      globo1: -1117815874
+      SpriteSheetIngles_47: -1667874792
+      "pu\xF1eta1": 1052322638
+      Stun6: 261412685
+      "pu\xF1eta4": -1957866425
+      idle3: -1328473926
+      muerte2: 1205611063
+      ulti2: 830584396
+      muerte1: 2002131189
+      SpriteSheetIngles_10: 1999506228
+      ulti1: 1191519029
+      SpriteSheetIngles_20: -527457118
+      SpriteSheetIngles_15: -498959578
+      globo4: 2065459466
+      globo5: -1230504846
+      "pu\xF1eta2": -1024525251
+      ulti3: 1245071037
+      globo2: 1154350624
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

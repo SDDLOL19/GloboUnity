@@ -631,7 +631,7 @@ MonoBehaviour:
   - {fileID: 1892693473, guid: e7dbce7024f088e47848012d7c83697f, type: 3}
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
-  - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
+  - {fileID: 92783753, guid: 9b69f49dd0359f6469d30e43d5d4e6d0, type: 3}
   - {fileID: -1314851899, guid: ee225e358c139094d9653bb310251dc3, type: 3}
   spritesJugadores:
   - {fileID: 1244542074}
