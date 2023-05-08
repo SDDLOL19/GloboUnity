@@ -4695,6 +4695,10 @@ PrefabInstance:
       propertyPath: spritesLanzables.Array.data[1]
       value: 
       objectReference: {fileID: -40279792, guid: ee225e358c139094d9653bb310251dc3, type: 3}
+    - target: {fileID: 4748641399109439119, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
+      propertyPath: spritesLanzables.Array.data[2]
+      value: 
+      objectReference: {fileID: 281077610, guid: 4125b92f88caf024887120cbb4875cbd, type: 3}
     - target: {fileID: 4876700089769665466, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
       propertyPath: spawnPoint
       value: 
