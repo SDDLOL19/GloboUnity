@@ -930,10 +930,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1486682369781588129, guid: fbc857be7b0800c488d23528896002cb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.09
-      objectReference: {fileID: 0}
     - target: {fileID: 2724242426619040946, guid: fbc857be7b0800c488d23528896002cb, type: 3}
       propertyPath: m_Name
       value: Player2
@@ -4457,67 +4453,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1350920035430399018
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_RootOrder
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4551626029982821573, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7276200829292341073, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: spritesLanzables.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7328718577197025020, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
-      propertyPath: m_Name
-      value: ObjetoLanzable
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
 --- !u!1001 &1358361347992328874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4683,22 +4618,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4748641399109439119, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
-      propertyPath: spritesLanzables.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4748641399109439119, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
-      propertyPath: spritesLanzables.Array.data[0]
-      value: 
-      objectReference: {fileID: -40279792, guid: ee225e358c139094d9653bb310251dc3, type: 3}
-    - target: {fileID: 4748641399109439119, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
-      propertyPath: spritesLanzables.Array.data[1]
-      value: 
-      objectReference: {fileID: -40279792, guid: ee225e358c139094d9653bb310251dc3, type: 3}
-    - target: {fileID: 4748641399109439119, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
-      propertyPath: spritesLanzables.Array.data[2]
-      value: 
-      objectReference: {fileID: 281077610, guid: 4125b92f88caf024887120cbb4875cbd, type: 3}
     - target: {fileID: 4876700089769665466, guid: e68e8ac7329c3ae419414eaeefb4d413, type: 3}
       propertyPath: spawnPoint
       value: 

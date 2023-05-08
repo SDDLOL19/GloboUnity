@@ -36,10 +36,11 @@ public class Ultimates : MonoBehaviour
     {
         GameObject objetoLanzado;
 
-        objetoLanzado = Instantiate(objetoLanzable, this.transform.position, Quaternion.Euler(this.transform.up));
+        objetoLanzado = Instantiate(objetoLanzable, this.transform.position + new Vector3(0,0.4f,0), Quaternion.Euler(this.transform.up));
         objetoLanzado.tag = "Ultimate" + thisPlayer.numeroPlayer;
         objetoLanzado.GetComponent<SpriteRenderer>().sprite = spritesLanzables[thisPlayer.numeroSkin];
         objetoLanzado.GetComponent<Lanzable>().numeroJugadorContrario = thisPlayer.numeroEnemigo;
+        objetoLanzado.GetComponent<Lanzable>().player = thisPlayer.transform;
         Invoke("DejarDeGolpear", 0.5f);
     }
 

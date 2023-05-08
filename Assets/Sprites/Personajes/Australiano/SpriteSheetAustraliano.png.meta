@@ -1,0 +1,1148 @@
+fileFormatVersion: 2
+guid: 16b9f34be8e0f17469513f03eb376e70
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4505ecc94c215f34b9339707f1bc6fc2
+      internalID: -1214099008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 179
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e00fa382acc2e4a9762d9d45c70f63
+      internalID: -1911987316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 179
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05276fec4c5d4904da24c82cb02813e8
+      internalID: -667158050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 180
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad08b2197b9975f48b0a5cb87ed3c4fd
+      internalID: -2057265694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 179
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4502b1f77f5cfeb4aa2a7b4f69927fa5
+      internalID: 618561807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 179
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823d9755a5b26e840bbac34bf5127e14
+      internalID: -509794931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 179
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006f25ab0a22e97489ae310b12cb1fe6
+      internalID: 625258361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 180
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548aef380e91cfe4f89e3f48b517bcf0
+      internalID: -1455918175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 180
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b190ee31c33e146beab37cae475ba0
+      internalID: 44072407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 178
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0cac27e6227294c96e081795747c9e
+      internalID: 1688220518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_18
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 178
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb51b5b272ee63b429ffffb88a24e3ef
+      internalID: -1791788111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_21
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 178
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc0809961927374e90dee8890b49c53
+      internalID: 1418674194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b71465e0a91294cb68f7abe565a78b
+      internalID: -42974435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 141
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920841e2db22f74d84e9da460731a3c
+      internalID: -305250765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 141
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057d3452720787e41879bb7e4c968f53
+      internalID: -1627026042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 141
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f5b6c4e9a5e1b499d9ffbc8c85ed4c
+      internalID: 689506509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_26
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 142
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870fc4eec4c2cd4884e335f04a26ced
+      internalID: -323611839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 142
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31a3375f37adec49bd0f3ae2567b37e
+      internalID: -535480546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 142
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46772a5d09ccd4043b22c9c9a7e3484c
+      internalID: -1761208159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 132
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6c5664fe0bdf44ab37b66d27dd2570
+      internalID: 1181867658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 132
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175b030dd47cbcc4e8f589e896f58b61
+      internalID: -1984416689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_31
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 132
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da3ec3c1843f942816658d6f4e9e84
+      internalID: 1803474857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 132
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7c1f536f81ff4490bf5315ecc5e75
+      internalID: -1984088651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 132
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca14e226bcf99646842a62bf367ffcd
+      internalID: 469526975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 102
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b046818c842267b48b83efa6a4e1c118
+      internalID: 377890701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 101
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd61764127d644b99fb002ed39e711
+      internalID: -783811962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_36
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 101
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5167d8885dbf89c458e867d1d32d6fa3
+      internalID: -448365696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 83
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f43d30482533f4f9e656e2417e5f63
+      internalID: 1266918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 83
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36b3b6cb0b93dd40b5d69168c67093f
+      internalID: 1901823085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 83
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84813203c1fd94b8945755b12c9de6
+      internalID: -979712482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_40
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 83
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f1b3d31736ad4f9d29452997b2cfe
+      internalID: -1274706035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_41
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 83
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54758aa768eb484e89a2233ad47d046
+      internalID: -418088968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 47
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b23c0719301b04b9c56d5ac30e8f68
+      internalID: -1893977890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_45
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8926a40e366ba4989c276af28fb6b6
+      internalID: 1497817878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 47
+        width: 21
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadaf425c824ecc44988cab087434f7d
+      internalID: 768331830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 21
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0bafdaa6a581742b92445a474fafc8
+      internalID: 103601822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 47
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd187a121b39947830cdf08e8c5fb8
+      internalID: -1582067893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 21
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd75b28fc3417f2449857965b8af30a5
+      internalID: -143712294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_52
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 34
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126155342e98b124ead658706bdf4b69
+      internalID: 1732816383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 34
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c889621e7a3e1fe4eb181f8bc1b172b8
+      internalID: 497475025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 34
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27c16d311d21a4782687fd42f70877
+      internalID: 1107355805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e70aafe1199ae44d8437186614f0994
+      internalID: -442365210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 10
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec07a97784ceaa4fbd94563c7fcafc2
+      internalID: 1081290886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_57
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 15
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74576dde2f8e4b141813120a2a03c5e5
+      internalID: 178501990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_58
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 12
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e079b5816020a8b43b27432571b0c3e7
+      internalID: 1890292976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetAustraliano_59
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 16
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0824386268d5ec74fb22ccb80ae0585e
+      internalID: 1771125533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheetAustraliano_56: 1081290886
+      SpriteSheetAustraliano_58: 1890292976
+      SpriteSheetAustraliano_33: 469526975
+      SpriteSheetAustraliano_54: 1107355805
+      SpriteSheetAustraliano_25: 689506509
+      SpriteSheetAustraliano_22: -42974435
+      SpriteSheetAustraliano_21: 1418674194
+      SpriteSheetAustraliano_45: 1497817878
+      SpriteSheetAustraliano_38: 1901823085
+      SpriteSheetAustraliano_30: -1984416689
+      SpriteSheetAustraliano_41: -418088968
+      SpriteSheetAustraliano_12: 1688220518
+      SpriteSheetAustraliano_3: -2057265694
+      SpriteSheetAustraliano_57: 178501990
+      SpriteSheetAustraliano_13: 2100967145
+      SpriteSheetAustraliano_4: 618561807
+      SpriteSheetAustraliano_43: -1893977890
+      SpriteSheetAustraliano_52: 1732816383
+      SpriteSheetAustraliano_2: -667158050
+      SpriteSheetAustraliano_16: 1391807365
+      SpriteSheetAustraliano_23: -305250765
+      SpriteSheetAustraliano_18: -1791788111
+      SpriteSheetAustraliano_35: -783811962
+      SpriteSheetAustraliano_5: -509794931
+      SpriteSheetAustraliano_7: -1455918175
+      SpriteSheetAustraliano_40: -1274706035
+      SpriteSheetAustraliano_53: 497475025
+      SpriteSheetAustraliano_44: 1630310767
+      SpriteSheetAustraliano_0: -1214099008
+      SpriteSheetAustraliano_11: -1266742751
+      SpriteSheetAustraliano_26: -323611839
+      SpriteSheetAustraliano_34: 377890701
+      SpriteSheetAustraliano_10: 2115255351
+      SpriteSheetAustraliano_51: -143712294
+      SpriteSheetAustraliano_37: 1266918598
+      SpriteSheetAustraliano_47: 768331830
+      SpriteSheetAustraliano_20: 1296359620
+      SpriteSheetAustraliano_27: -535480546
+      SpriteSheetAustraliano_31: 1803474857
+      SpriteSheetAustraliano_42: -329414954
+      SpriteSheetAustraliano_50: -1582067893
+      SpriteSheetAustraliano_1: -1911987316
+      SpriteSheetAustraliano_14: 199452518
+      SpriteSheetAustraliano_48: 2034867638
+      SpriteSheetAustraliano_15: -655778417
+      SpriteSheetAustraliano_17: 2099082310
+      SpriteSheetAustraliano_9: 936088797
+      SpriteSheetAustraliano_24: -1627026042
+      SpriteSheetAustraliano_39: -979712482
+      SpriteSheetAustraliano_55: -442365210
+      SpriteSheetAustraliano_32: -1984088651
+      SpriteSheetAustraliano_28: -1761208159
+      SpriteSheetAustraliano_29: 1181867658
+      SpriteSheetAustraliano_59: 1771125533
+      SpriteSheetAustraliano_49: 103601822
+      SpriteSheetAustraliano_36: -448365696
+      SpriteSheetAustraliano_46: 2127047261
+      SpriteSheetAustraliano_19: 1382686170
+      SpriteSheetAustraliano_8: 44072407
+      SpriteSheetAustraliano_6: 625258361
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

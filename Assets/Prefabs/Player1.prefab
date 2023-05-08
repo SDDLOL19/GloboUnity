@@ -305,6 +305,9 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   playerRigid: {fileID: 0}
   playerAnim: {fileID: 0}
+  numeroPlayer: 0
+  numeroEnemigo: 0
+  numeroSkin: 0
   cantidadSaltos: 0
   dashTime: 0
   energyBar: 100
@@ -323,8 +326,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitboxUltimatePunch: {fileID: 1074142244936582419}
-  objetoLanzable: {fileID: 0}
-  objetoBumerang: {fileID: 0}
+  objetoLanzable: {fileID: 7328718577197025020, guid: ed9a123b793772f4ba3c74b7e6d6670b, type: 3}
+  spritesLanzables:
+  - {fileID: -40279792, guid: ee225e358c139094d9653bb310251dc3, type: 3}
+  - {fileID: -40279792, guid: ee225e358c139094d9653bb310251dc3, type: 3}
+  - {fileID: 281077610, guid: 4125b92f88caf024887120cbb4875cbd, type: 3}
+  - {fileID: -1600782918, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
+  - {fileID: -1600782918, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
+  - {fileID: -1600782918, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
+  - {fileID: -1600782918, guid: 179da90335ddb844cac2747b6ee6f7ff, type: 3}
+  - {fileID: 178501990, guid: 16b9f34be8e0f17469513f03eb376e70, type: 3}
+  - {fileID: 178501990, guid: 16b9f34be8e0f17469513f03eb376e70, type: 3}
+  - {fileID: 60576014, guid: 7327575f55d0bdb4ebc0acd188a051d7, type: 3}
 --- !u!50 &5740648436965842055
 Rigidbody2D:
   serializedVersion: 4

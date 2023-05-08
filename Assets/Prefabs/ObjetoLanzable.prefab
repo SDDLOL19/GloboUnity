@@ -114,4 +114,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28d322be2cb9f114aabda8587513a918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spritesLanzables: []
+  numeroJugadorContrario: 0
+  player: {fileID: 0}

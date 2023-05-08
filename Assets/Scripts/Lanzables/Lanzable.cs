@@ -5,10 +5,20 @@ using UnityEngine;
 public class Lanzable : MonoBehaviour
 {
     public int numeroJugadorContrario;
+    public Transform player;
 
     void Update()
     {
-        this.transform.position += this.transform.right * Time.deltaTime * 9;
+        if (player.localScale.x == -1)
+        {
+            this.transform.position += (-player.right) * Time.deltaTime * 9;
+            this.transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        else
+        {
+            this.transform.position += player.right * Time.deltaTime * 9;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
