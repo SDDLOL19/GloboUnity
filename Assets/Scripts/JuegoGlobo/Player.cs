@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public AudioSource miSonidito;
+    public AudioClip[] sonidos;
+
     public SpritesManager spriteManejador;
     protected RuntimeAnimatorController[] personajesAnimados;
 
@@ -28,6 +31,11 @@ public class Player : MonoBehaviour
     public float energyBar = 100;
     public float speed = 6;
     [SerializeField] float jumpForce = 12;
+
+    private void Awake()
+    {
+        miSonidito = this.gameObject.GetComponent<AudioSource>(); 
+    }
 
     private void Start()
     {
@@ -88,6 +96,10 @@ public class Player : MonoBehaviour
     public void Salto()
     {
         playerAnim.Play("Saltar");
+
+        miSonidito.clip = sonidos[2];
+        miSonidito.Play();
+
         playerRigid.velocity = Vector2.up * jumpForce;
         canJump = false;
         cantidadSaltos++;
@@ -99,11 +111,15 @@ public class Player : MonoBehaviour
         if (energyBar == 100)
         {
             playerAnim.Play("Puñetazo");
+            miSonidito.clip = sonidos[0];
+            miSonidito.Play();
         }
 
         else
         {
             playerAnim.Play("PuñoGlobo");
+            miSonidito.clip = sonidos[1];
+            miSonidito.Play();
         }
 
         punchCollision.SetActive(true);   //Activa la colision del puño
@@ -161,6 +177,8 @@ public class Player : MonoBehaviour
         playerRigid.velocity = Vector2.zero;
         playerAnim.SetBool("dying", true);
         playerAnim.Play("Muerte");
+        miSonidito.clip = sonidos[4];
+        miSonidito.Play();
     }
 
     public void PlayerSpawn()

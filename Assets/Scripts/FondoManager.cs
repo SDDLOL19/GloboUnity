@@ -14,8 +14,17 @@ public class FondoManager : MonoBehaviour
     public Sprite[] spritesplataformaGrande;
     public Sprite[] spritesPinchos;
 
+    public AudioClip[] canciones;
+    public AudioSource emiteMusica;
+
+    private void Awake()
+    {
+        emiteMusica.clip = canciones[SpritesManager.fondoEscenario - 1];
+    }
+
     void Start()
     {
+        emiteMusica.Play();
         fondo.sprite = spritesFondos[SpritesManager.fondoEscenario-1];
 
         for (int i = 0; i < plataformas.Length; i++)

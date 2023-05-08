@@ -6,19 +6,26 @@ public class Lanzable : MonoBehaviour
 {
     public int numeroJugadorContrario;
     public Transform player;
+    Vector3 direccíon;
 
-    void Update()
+    private void Start()
     {
         if (player.localScale.x == -1)
         {
-            this.transform.position += (-player.right) * Time.deltaTime * 9;
+            direccíon = -player.right;
             this.transform.localScale = new Vector3(-1, 1, 1);
         }
 
         else
         {
-            this.transform.position += player.right * Time.deltaTime * 9;
+            direccíon = player.right;
         }
+    }
+
+    void Update()
+    {
+        this.transform.position += direccíon * Time.deltaTime * 9;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -15,6 +15,9 @@ public class Globo : MonoBehaviour
     Rigidbody2D fisicasGlobo;
     [SerializeField] Transform spawnerGlobo;
 
+    public AudioSource cabum;
+    public AudioClip pum;
+
     void Start()
     {       
         estadoGlobo = 0;
@@ -53,6 +56,8 @@ public class Globo : MonoBehaviour
         manejadorPartida.SumarPuntos(estadoGlobo);
         DesactivarFisicas();
         animacionGlobo.SetBool("GloboMuerte", true);
+        cabum.clip = pum;
+        cabum.Play();
     }
 
     void RecibirCabezazo()

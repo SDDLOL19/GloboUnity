@@ -98,6 +98,12 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
         {
             dashTime += Time.deltaTime;
 
+            if (Input.GetKeyDown(InputStuff.Dash[0]))
+            {
+                miSonidito.clip = sonidos[3];
+                miSonidito.Play();
+            }
+
             if (dashTime < 0.35f)
             {
                 if (Input.GetKey(InputStuff.Derecha[0]))

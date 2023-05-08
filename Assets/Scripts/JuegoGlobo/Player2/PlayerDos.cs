@@ -22,7 +22,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
         {
             MovementSystem();
 
-            if (Input.GetKeyDown(InputStuff.Golpe[1]))
+            if (Input.GetKeyDown(InputStuff.Golpe[1]) && canMove)
             {
                 NormalPunching();
             }
@@ -98,6 +98,12 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
         {
             dashTime += Time.deltaTime;
 
+            if (Input.GetKeyDown(InputStuff.Dash[1]))
+            {
+                miSonidito.clip = sonidos[3];
+                miSonidito.Play();
+            }
+
             if (dashTime < 0.35f)
             {
                 if (Input.GetKey(InputStuff.Derecha[1]))
@@ -126,7 +132,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
     {
         if (Input.GetKeyDown(InputStuff.Ulti[1]) && GameManager.ultimateEnergy[1] >= 5)
         {
-            GameManager.ultimateEnergy[0] = 0;
+            GameManager.ultimateEnergy[1] = 0;
             playerAnim.Play("Ultimate");
             this.gameObject.GetComponent<Ultimates>().Ejecutar();
         }

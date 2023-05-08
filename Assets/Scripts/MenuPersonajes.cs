@@ -49,7 +49,7 @@ public class MenuPersonajes : MonoBehaviour
     {
         if (SpritesManager.personajeJugadorUno != 0 && SpritesManager.personajeJugadorDos != 0 && SpritesManager.fondoEscenario != 0)
         {
-            if (Input.GetKeyDown(KeyCode.KeypadEnter)) //Keyboard.current.enterKey.wasPressedThisFrame
+            if (Input.GetKeyDown(KeyCode.Space)) //Keyboard.current.enterKey.wasPressedThisFrame
             {
                 SceneManager.LoadScene(2);
             }
