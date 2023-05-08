@@ -6,18 +6,24 @@ public class Ultimates : MonoBehaviour
 {
     public GameObject hitboxUltimatePunch;
     public GameObject objetoLanzable;
-    public GameObject objetoBumerang;
 
-    void Ejecutar()
+    public Sprite[] spritesLanzables;
+
+    Player thisPlayer;
+
+    private void Awake()
     {
-        if (SpritesManager.personajeJugadorUno == 1 || SpritesManager.personajeJugadorUno == 2 || SpritesManager.personajeJugadorUno == 9)
+        hitboxUltimatePunch.SetActive(false);
+        thisPlayer = this.gameObject.GetComponent<Player>();
+    }
+
+    public void Ejecutar()
+    {
+        thisPlayer.canMove = false;
+
+        if (thisPlayer.numeroSkin == 0 || thisPlayer.numeroSkin == 1 || thisPlayer.numeroSkin == 2 || thisPlayer.numeroSkin == 3 || thisPlayer.numeroSkin == 7 || thisPlayer.numeroSkin == 9)
         {
             LanzarObjeto();
-        }
-
-        else if (SpritesManager.personajeJugadorUno == 3 || SpritesManager.personajeJugadorUno == 7)
-        {
-            LanzarBumerang();
         }
 
         else
@@ -28,12 +34,13 @@ public class Ultimates : MonoBehaviour
 
     void LanzarObjeto()
     {
-        Instantiate(objetoLanzable, this.transform.position, Quaternion.Euler(this.transform.right));
-    }
+        GameObject objetoLanzado;
 
-    void LanzarBumerang()
-    {
-        Instantiate(objetoBumerang, this.transform.position, Quaternion.Euler(this.transform.right));
+        objetoLanzado = Instantiate(objetoLanzable, this.transform.position, Quaternion.Euler(this.transform.up));
+        objetoLanzado.tag = "Ultimate" + thisPlayer.numeroPlayer;
+        objetoLanzado.GetComponent<SpriteRenderer>().sprite = spritesLanzables[thisPlayer.numeroSkin];
+        objetoLanzado.GetComponent<Lanzable>().numeroJugadorContrario = thisPlayer.numeroEnemigo;
+        Invoke("DejarDeGolpear", 0.5f);
     }
 
     void Golpear()
@@ -45,5 +52,7 @@ public class Ultimates : MonoBehaviour
     void DejarDeGolpear()
     {
         hitboxUltimatePunch.SetActive(false);
+        thisPlayer.playerAnim.Play("Idle");
+        thisPlayer.PermitirMovimiento();
     }
 }

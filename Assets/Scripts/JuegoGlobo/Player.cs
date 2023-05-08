@@ -18,8 +18,9 @@ public class Player : MonoBehaviour
     public Rigidbody2D playerRigid;
     public Animator playerAnim;
 
-    protected int numeroPlayer;
-    protected int numeroEnemigo;
+    public int numeroPlayer;
+    public int numeroEnemigo;
+    public int numeroSkin;
 
 
     public int cantidadSaltos;
@@ -128,7 +129,7 @@ public class Player : MonoBehaviour
             
             playerAnim.SetBool("stunted", true);
             playerAnim.Play("Stun");
-            Invoke("Desaturdirse", 1);
+            Invoke("Desaturdirse", 0.8f);
         }
     }
 
@@ -153,7 +154,7 @@ public class Player : MonoBehaviour
         energyBar = 0;
     }
 
-    void DeathSystem()
+    protected void DeathSystem()
     {
         canMove = false;
         playerRigid.gravityScale = 0;
@@ -172,7 +173,7 @@ public class Player : MonoBehaviour
         Invoke("PermitirMovimiento", 1.0f);
     }
 
-    void PermitirMovimiento()
+    public void PermitirMovimiento()
     {
         canMove = true;
     }

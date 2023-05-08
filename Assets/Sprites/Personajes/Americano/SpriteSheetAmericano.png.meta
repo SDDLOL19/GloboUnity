@@ -998,15 +998,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetAmericano_59
+      name: Hamburguer
       rect:
         serializedVersion: 2
         x: 334
         y: 42
         width: 8
         height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1078,7 +1078,6 @@ TextureImporter:
       dash: 1925835586
       SpriteSheetAmericano_18: 84015038
       globo3: -880032550
-      SpriteSheetAmericano_59: 60576014
       SpriteSheetAmericano_22: 822042862
       salto2: 379203171
       stun6: -613130881
@@ -1109,6 +1108,7 @@ TextureImporter:
       "pu\xF1o4": -33225253
       "pu\xF1o5": -1787831614
       globo2: 154347659
+      Hamburguer: 60576014
       SpriteSheetAmericano_24: 912938272
       SpriteSheetAmericano_20: 850094370
   spritePackingTag: 

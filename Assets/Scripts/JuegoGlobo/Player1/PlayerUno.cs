@@ -11,6 +11,9 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
         numeroPlayer = 1;
         numeroEnemigo = 2;
         personajesAnimados = spriteManejador.personajesAnimados;
+
+        numeroSkin = SpritesManager.personajeJugadorUno;
+
         PonerSkinAdecuada();
     }
 
@@ -34,7 +37,7 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
 
     void PonerSkinAdecuada()
     {
-        this.GetComponent<Animator>().runtimeAnimatorController = personajesAnimados[SpritesManager.personajeJugadorUno];
+        this.GetComponent<Animator>().runtimeAnimatorController = personajesAnimados[numeroSkin];
     }
 
     void MovementSystem()
@@ -124,8 +127,17 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
     {
         if (Keyboard.current.sKey.wasPressedThisFrame && GameManager.ultimateEnergy[0] >= 5)
         {
-            this.gameObject.GetComponent<Ultimates>();
             GameManager.ultimateEnergy[0] = 0;
+            playerAnim.Play("Ultimate");
+            this.gameObject.GetComponent<Ultimates>().Ejecutar();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Ultimate2")
+        {
+            DeathSystem();
         }
     }
 }
