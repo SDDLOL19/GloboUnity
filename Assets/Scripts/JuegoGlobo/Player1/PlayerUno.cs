@@ -14,10 +14,11 @@ public class PlayerUno : Player      //Clase player para que coja todo lo básico
         numeroSkin = SpritesManager.personajeJugadorUno;
 
         PonerSkinAdecuada();
+        GameManager.ultimateEnergy[0] = 0;
     }
-
     void Update()
     {
+
         if (canMove == true)
         {
             MovementSystem();

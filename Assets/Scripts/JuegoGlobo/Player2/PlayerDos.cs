@@ -14,6 +14,7 @@ public class PlayerDos : Player      //Clase pplayer para que coja todo lo básic
         numeroSkin = SpritesManager.personajeJugadorDos;
 
         PonerSkinAdecuada();
+        GameManager.ultimateEnergy[1] = 0;
     }
 
     void Update()
